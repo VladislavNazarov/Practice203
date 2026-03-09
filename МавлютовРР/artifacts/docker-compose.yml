@@ -1,0 +1,60 @@
+services:
+  app:
+    build:
+      context: ../../../python-videohosting
+      dockerfile: Dockerfile
+    image: ghcr.io/stirk1337/python-videohosting:latest
+    container_name: python-videohosting-app
+    depends_on:
+      db:
+        condition: service_healthy
+      cache:
+        condition: service_started
+    environment:
+      APP_ENV: production
+      APP_HOST: 0.0.0.0
+      APP_PORT: "8000"
+      SECRET_KEY: local-compose-secret
+      DATABASE_URL: postgresql://videohosting:videohosting@db:5432/videohosting
+      REDIS_URL: redis://cache:6379/0
+      UPLOAD_DIR: /app/uploads
+      MAX_VIDEO_SIZE_MB: "500"
+    ports:
+      - "8000:8000"
+    volumes:
+      - uploads_data:/app/uploads
+    networks:
+      - backend
+
+  db:
+    image: postgres:16-alpine
+    container_name: python-videohosting-db
+    environment:
+      POSTGRES_DB: videohosting
+      POSTGRES_USER: videohosting
+      POSTGRES_PASSWORD: videohosting
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U videohosting -d videohosting"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - backend
+
+  cache:
+    image: redis:7-alpine
+    container_name: python-videohosting-cache
+    command: ["redis-server", "--save", "60", "1", "--loglevel", "warning"]
+    networks:
+      - backend
+
+volumes:
+  db_data:
+  uploads_data:
+
+networks:
+  backend:
+    driver: bridge
+    internal: true
