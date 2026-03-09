@@ -1,0 +1,21 @@
+Registry push log placeholder
+=============================
+
+This file is intended to store the log of the first successful GitHub Actions
+run for the `build-and-push` job that publishes the image to GHCR.
+
+Target image:
+ghcr.io/stirk1337/python-videohosting:latest
+
+How to refresh this file after the first successful pipeline run:
+1. Open GitHub Actions for the `CI Pipeline` workflow.
+2. Open the successful `build-and-push` job triggered by a push to `main`.
+3. Copy the log output for the GHCR login, metadata, build and push steps.
+4. Replace this placeholder text with the real CI log excerpt.
+
+Expected success markers:
+- Login Succeeded
+- exporting to image
+- pushing layers
+- pushing manifest for ghcr.io/stirk1337/python-videohosting:latest
+- digest: sha256:...
