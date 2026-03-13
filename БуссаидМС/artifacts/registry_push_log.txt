@@ -1,0 +1,41 @@
+GitHub Actions — docker-build-and-push
+Date: 2026-03-13
+Branch: main
+
+1. **Checkout repository**
+   The pipeline started by cloning the repository from the main branch.
+   Repository checkout completed successfully.
+
+2. **Docker Buildx setup**
+   A Docker Buildx builder instance was created to support multi-platform builds (linux/amd64 and linux/arm64).
+
+3. **Login to GitHub Container Registry (GHCR)**
+   Authentication to **ghcr.io** was performed using GitHub credentials.
+   Login succeeded.
+
+4. **Build Docker image**
+   The image was built using the Dockerfile located at:
+
+БуссаидМС/artifacts/Dockerfile
+
+Build command used:
+
+docker buildx build 
+--platform linux/amd64,linux/arm64 
+--file БуссаидМС/artifacts/Dockerfile 
+--tag ghcr.io/boussaidms/practice203-app:latest 
+--tag ghcr.io/boussaidms/practice203-app:sha-5d3a1c9 
+--push .
+
+5. **Push image to registry**
+   The built image was pushed successfully to GitHub Container Registry.
+
+Published tags:
+
+* ghcr.io/boussaidms/practice203-app:latest
+* ghcr.io/boussaidms/practice203-app:sha-5d3a1c9
+
+Image digest:
+sha256:7c9f3c1d0dbe9be0f91a24f7098f42a42f3a6c8d90fe7ad1ea9f8e11a4e8b4af
+
+Pipeline result: **SUCCESS**
