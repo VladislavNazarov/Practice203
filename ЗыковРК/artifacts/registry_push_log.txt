@@ -1,0 +1,12 @@
+$ docker push ghcr.io/becelchak/vrkayak-backend:latest
+The push refers to repository [ghcr.io/becelchak/vrkayak-backend]
+2c04cf14b3a0: Pushed
+0a515613f78d: Pushed
+ab25fe545b14: Pushed
+12a912b39823: Pushed
+84a2afebaf4d: Pushed
+cd0b4f99b4b4: Pushed
+3f072ad98b07: Pushed
+d47ad20a66b5: Pushed
+6ff1bffe3b0c: Pushed
+latest: digest: sha256:7b1d9983700750e36e9ae97eaf389f52c60798538e5f31c6b23ab454e42191b3 size: 856

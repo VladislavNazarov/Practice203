@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: vrkayak_db
+    environment:
+      POSTGRES_DB: vrkayak
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - vrkayak_net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  cache:
+    image: redis:7-alpine
+    container_name: vrkayak_cache
+    networks:
+      - vrkayak_net
+
+  app:
+    image: ghcr.io/becelchak/vrkayak-backend:latest
+    container_name: vrkayak-backend
+    ports:
+      - "8080:80"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=vrkayak;Username=postgres;Password=postgres"
+      Redis__ConnectionString: "cache:6379"
+    depends_on:
+      db:
+        condition: service_healthy
+      cache:
+        condition: service_started
+    networks:
+      - vrkayak_net
+
+volumes:
+  postgres_data:
+
+networks:
+  vrkayak_net:
+    driver: bridge
