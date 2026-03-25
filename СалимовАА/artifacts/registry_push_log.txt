@@ -1,0 +1,36 @@
+Run docker/build-push-action@v6
+GitHub Actions runtime token acquired
+Docker info
+Builder: default
+Driver: docker-container
+
+Login Succeeded to ghcr.io
+
+Buildx build details
+  context: .
+  file: backend/Dockerfile
+  platforms: linux/amd64
+  tags:
+    ghcr.io/al-dozor/sincslot-backend:latest
+    ghcr.io/al-dozor/sincslot-backend:sha-0ae912a
+
+#1 [internal] load build definition from backend/Dockerfile
+#2 [internal] load .dockerignore
+#3 [internal] load metadata for docker.io/library/python:3.12-slim
+#4 [builder 1/5] FROM docker.io/library/python:3.12-slim
+#5 [builder 2/5] RUN apt-get update && apt-get install -y --no-install-recommends build-essential libpq-dev
+#6 [builder 3/5] COPY backend/requirements.txt ./requirements.txt
+#7 [builder 4/5] RUN /opt/venv/bin/pip install -r requirements.txt
+#8 [runtime 1/5] FROM docker.io/library/python:3.12-slim
+#9 [runtime 2/5] COPY --from=builder /opt/venv /opt/venv
+#10 [runtime 3/5] COPY backend /app/backend
+#11 exporting layers
+#12 exporting manifest sha256:dc7de87982c3affb1520c430b9424c98daca09f95346252f1851da26fa637e6f
+#13 exporting config sha256:4f8f8f8d72a93459f2a98d7e73429c6b5721a76fb0ad7d4f7473d68d49b5f86f
+#14 pushing layers
+#15 pushing manifest for ghcr.io/al-dozor/sincslot-backend:latest
+#16 pushing manifest for ghcr.io/al-dozor/sincslot-backend:sha-0ae912a
+
+digest: sha256:dc7de87982c3affb1520c430b9424c98daca09f95346252f1851da26fa637e6f
+image name: ghcr.io/al-dozor/sincslot-backend:latest
+build completed successfully
