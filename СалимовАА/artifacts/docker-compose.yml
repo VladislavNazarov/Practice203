@@ -1,0 +1,65 @@
+services:
+  app:
+    build:
+      context: ../../..
+      dockerfile: Practice203/СалимовАА/artifacts/Dockerfile
+    image: ${APP_IMAGE:-ghcr.io/al-dozor/sincslot-backend:latest}
+    container_name: sincslot_app
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+      cache:
+        condition: service_started
+    environment:
+      SYNC_SLOT__DB__URL: ${SYNC_SLOT__DB__URL:-postgresql+asyncpg://pguser:pgpassword@db:5432/syncslot_db}
+      SYNC_SLOT__DB__ECHO: ${SYNC_SLOT__DB__ECHO:-0}
+      SYNC_SLOT__DB__ECHO_POOL: ${SYNC_SLOT__DB__ECHO_POOL:-0}
+      SYNC_SLOT__DB__POOL_SIZE: ${SYNC_SLOT__DB__POOL_SIZE:-5}
+      SYNC_SLOT__DB__MAX_OVERFLOW: ${SYNC_SLOT__DB__MAX_OVERFLOW:-10}
+      SYNC_SLOT__PASSWORD__SALT: ${SYNC_SLOT__PASSWORD__SALT:-Tom&Jerry}
+      SYNC_SLOT__JWT__SECRET_KEY: ${SYNC_SLOT__JWT__SECRET_KEY:-secret_key}
+      SYNC_SLOT__JWT__ALGORITHM: ${SYNC_SLOT__JWT__ALGORITHM:-HS256}
+      SYNC_SLOT__JWT__ACCESS_TOKEN_EXPIRE_MINUTES: ${SYNC_SLOT__JWT__ACCESS_TOKEN_EXPIRE_MINUTES:-30}
+      SYNC_SLOT__CACHE__URL: ${SYNC_SLOT__CACHE__URL:-redis://cache:6379/0}
+    ports:
+      - "${APP_PORT:-10004}:10004"
+    networks:
+      - sincslot_internal
+
+  db:
+    image: postgres:17-alpine
+    container_name: sincslot_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-syncslot_db}
+      POSTGRES_USER: ${POSTGRES_USER:-pguser}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-pgpassword}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-pguser} -d ${POSTGRES_DB:-syncslot_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    networks:
+      - sincslot_internal
+
+  cache:
+    image: redis:7-alpine
+    container_name: sincslot_cache
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    networks:
+      - sincslot_internal
+
+volumes:
+  postgres_data:
+
+networks:
+  sincslot_internal:
+    driver: bridge
