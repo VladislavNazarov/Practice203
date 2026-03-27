@@ -1,0 +1,10 @@
+The push refers to repository [ghcr.io/igor-maicovich/smart-cart]
+33f7ad2d49e3: Preparing
+97bc0124561f: Preparing
+f1821380c47d: Preparing
+0b44b2151d78: Preparing
+0b44b2151d78: Layer already exists
+f1821380c47d: Pushed
+97bc0124561f: Pushed
+33f7ad2d49e3: Pushed
+latest: digest: sha256:1a86b3647009cd624c38661bb0c9e46efa4cbf3c512d5f8857fcb62395b3de44 size: 1154
