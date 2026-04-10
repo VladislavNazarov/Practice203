@@ -1,0 +1,14 @@
+$ docker buildx build --push --tag ghcr.io/username/review-parser:latest .
+
+[+] Building 2.5s (25/25) FINISHED
+ => [internal] load build definition from Dockerfile       0.0s
+ => [internal] load metadata for docker.io/library/python  1.2s
+ => [builder] RUN pip install -r requirements.txt          8.9s
+ => [runtime] RUN apt-get install -y curl                  4.2s
+ => [runtime] COPY --from=builder /root/.local ...         0.1s
+ => [runtime] COPY ./app ./app                             0.2s
+ => exporting to image                                     3.4s
+ => => pushing layers                                      3.4s
+ => => pushing manifest                                    1.2s
+
+Successfully pushed ghcr.io/username/review-parser:latest (125 MB)
