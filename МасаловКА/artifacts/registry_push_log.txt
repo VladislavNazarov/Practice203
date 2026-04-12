@@ -1,0 +1,215 @@
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.28kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for mcr.microsoft.com/dotnet/sdk:8.0-alpine
+#2 ...
+
+#3 [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:8.0-alpine
+#3 DONE 0.2s
+
+#2 [internal] load metadata for mcr.microsoft.com/dotnet/sdk:8.0-alpine
+#2 DONE 0.2s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 356B done
+#4 DONE 0.0s
+
+#5 [build  1/10] FROM mcr.microsoft.com/dotnet/sdk:8.0-alpine@sha256:608d8a4b570b88bd8b1fbb792f00cee88d557eee3a56ebf06b359fdea05a50ed
+#5 resolve mcr.microsoft.com/dotnet/sdk:8.0-alpine@sha256:608d8a4b570b88bd8b1fbb792f00cee88d557eee3a56ebf06b359fdea05a50ed done
+#5 ...
+
+#6 [internal] load build context
+#6 transferring context: 536.45kB 0.1s done
+#6 DONE 0.1s
+
+#5 [build  1/10] FROM mcr.microsoft.com/dotnet/sdk:8.0-alpine@sha256:608d8a4b570b88bd8b1fbb792f00cee88d557eee3a56ebf06b359fdea05a50ed
+#5 extracting sha256:76627b14614fb8da2d6fc07a56985aff097ce0a1a072a4f5f539587e5b7a58de
+#5 sha256:2929fab1203572b0bae84d8df70e7ab1d2880ee4e365af1595040691940e6ab4 2.42kB / 2.42kB done
+#5 sha256:8e591406d16d8929460f664a4538fb3a8aa04b047c773097b1ef5a3912505703 5.26kB / 5.26kB done
+#5 sha256:43f4f07988a863647dc7360ca3ddf422dd629812078a1f6ab57f575e5843191a 0B / 945B 0.1s
+#5 sha256:0a3997bdb090763217d4008b6ff27510351da737e510a56223acc199747c45c1 0B / 32.27MB 0.1s
+#5 sha256:f0f02eb39e973bf092f699afeffd55c2d826ec96e036195097df83660ce26b19 0B / 154B 0.1s
+#5 sha256:608d8a4b570b88bd8b1fbb792f00cee88d557eee3a56ebf06b359fdea05a50ed 1.08kB / 1.08kB done
+#5 sha256:76627b14614fb8da2d6fc07a56985aff097ce0a1a072a4f5f539587e5b7a58de 1.14MB / 1.14MB 0.1s done
+#5 sha256:43f4f07988a863647dc7360ca3ddf422dd629812078a1f6ab57f575e5843191a 945B / 945B 0.1s done
+#5 sha256:0a3997bdb090763217d4008b6ff27510351da737e510a56223acc199747c45c1 32.27MB / 32.27MB 0.3s
+#5 sha256:f0f02eb39e973bf092f699afeffd55c2d826ec96e036195097df83660ce26b19 154B / 154B 0.2s done
+#5 sha256:eb42240b45712fdd4068e488754dbd3a8769b5aec970cd560364253211a827d2 11.09MB / 11.09MB 0.3s
+#5 sha256:e4f92ca23a262657496f6a74a585f2747d426a50f421a0dc3f6b481cd3a16251 0B / 21.67MB 0.4s
+#5 sha256:e4f92ca23a262657496f6a74a585f2747d426a50f421a0dc3f6b481cd3a16251 21.67MB / 21.67MB 0.7s
+#5 sha256:eb42240b45712fdd4068e488754dbd3a8769b5aec970cd560364253211a827d2 11.09MB / 11.09MB 0.9s done
+#5 sha256:0a3997bdb090763217d4008b6ff27510351da737e510a56223acc199747c45c1 32.27MB / 32.27MB 1.4s done
+#5 sha256:e4f92ca23a262657496f6a74a585f2747d426a50f421a0dc3f6b481cd3a16251 21.67MB / 21.67MB 1.5s done
+#5 sha256:baff55b6c3d571062b7eb7fbc7a87c021c7ec1c9a12406bf9f4b365959cc166c 0B / 178.34MB 1.5s
+#5 sha256:7ab4afe453bf8beff9d986caecb7c9329b0b64da4da96d9e506a64ead0977325 0B / 17.39MB 1.5s
+#5 sha256:f38ab45e5d113463ca9da31e1fb7cf906f20ecbc86aaee776dd25101c079536e 0B / 2.57kB 1.5s
+#5 sha256:baff55b6c3d571062b7eb7fbc7a87c021c7ec1c9a12406bf9f4b365959cc166c 46.14MB / 178.34MB 1.7s
+#5 sha256:7ab4afe453bf8beff9d986caecb7c9329b0b64da4da96d9e506a64ead0977325 17.39MB / 17.39MB 1.6s done
+#5 sha256:f38ab45e5d113463ca9da31e1fb7cf906f20ecbc86aaee776dd25101c079536e 2.57kB / 2.57kB 1.5s done
+#5 sha256:baff55b6c3d571062b7eb7fbc7a87c021c7ec1c9a12406bf9f4b365959cc166c 92.27MB / 178.34MB 1.9s
+#5 sha256:baff55b6c3d571062b7eb7fbc7a87c021c7ec1c9a12406bf9f4b365959cc166c 143.65MB / 178.34MB 2.1s
+#5 sha256:baff55b6c3d571062b7eb7fbc7a87c021c7ec1c9a12406bf9f4b365959cc166c 171.97MB / 178.34MB 2.2s
+#5 sha256:baff55b6c3d571062b7eb7fbc7a87c021c7ec1c9a12406bf9f4b365959cc166c 178.34MB / 178.34MB 3.7s done
+#5 extracting sha256:43f4f07988a863647dc7360ca3ddf422dd629812078a1f6ab57f575e5843191a done
+#5 extracting sha256:0a3997bdb090763217d4008b6ff27510351da737e510a56223acc199747c45c1 0.1s
+#5 extracting sha256:0a3997bdb090763217d4008b6ff27510351da737e510a56223acc199747c45c1 0.4s done
+#5 extracting sha256:f0f02eb39e973bf092f699afeffd55c2d826ec96e036195097df83660ce26b19 done
+#5 extracting sha256:eb42240b45712fdd4068e488754dbd3a8769b5aec970cd560364253211a827d2
+#5 ...
+
+#7 [final 1/3] FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine@sha256:354c2fcfb3c23abc60d98f0380cdb403fba844a62a123b6343a8c9611209995c
+#7 resolve mcr.microsoft.com/dotnet/aspnet:8.0-alpine@sha256:354c2fcfb3c23abc60d98f0380cdb403fba844a62a123b6343a8c9611209995c done
+#7 sha256:b014f1196fedb61ebb27a50a4779aaa12b3cf4afd5d2b711d2a7ddd0f3652dd7 1.58kB / 1.58kB done
+#7 sha256:59e41283b3fca6fb84bba0609b3fd0649535a5993058a835b997ac7d035f1679 2.63kB / 2.63kB done
+#7 sha256:43f4f07988a863647dc7360ca3ddf422dd629812078a1f6ab57f575e5843191a 945B / 945B 0.1s done
+#7 sha256:354c2fcfb3c23abc60d98f0380cdb403fba844a62a123b6343a8c9611209995c 1.08kB / 1.08kB done
+#7 sha256:76627b14614fb8da2d6fc07a56985aff097ce0a1a072a4f5f539587e5b7a58de 1.14MB / 1.14MB 0.1s done
+#7 sha256:0a3997bdb090763217d4008b6ff27510351da737e510a56223acc199747c45c1 32.27MB / 32.27MB 1.4s done
+#7 sha256:f0f02eb39e973bf092f699afeffd55c2d826ec96e036195097df83660ce26b19 154B / 154B 0.2s done
+#7 extracting sha256:76627b14614fb8da2d6fc07a56985aff097ce0a1a072a4f5f539587e5b7a58de 0.0s done
+#7 sha256:eb42240b45712fdd4068e488754dbd3a8769b5aec970cd560364253211a827d2 11.09MB / 11.09MB 0.9s done
+#7 extracting sha256:0a3997bdb090763217d4008b6ff27510351da737e510a56223acc199747c45c1 0.4s done
+#7 DONE 4.3s
+
+#8 [final 2/3] WORKDIR /app
+#8 DONE 0.0s
+
+#5 [build  1/10] FROM mcr.microsoft.com/dotnet/sdk:8.0-alpine@sha256:608d8a4b570b88bd8b1fbb792f00cee88d557eee3a56ebf06b359fdea05a50ed
+#5 extracting sha256:eb42240b45712fdd4068e488754dbd3a8769b5aec970cd560364253211a827d2 0.1s done
+#5 extracting sha256:e4f92ca23a262657496f6a74a585f2747d426a50f421a0dc3f6b481cd3a16251 0.1s
+#5 extracting sha256:e4f92ca23a262657496f6a74a585f2747d426a50f421a0dc3f6b481cd3a16251 0.3s done
+#5 extracting sha256:baff55b6c3d571062b7eb7fbc7a87c021c7ec1c9a12406bf9f4b365959cc166c
+#5 extracting sha256:baff55b6c3d571062b7eb7fbc7a87c021c7ec1c9a12406bf9f4b365959cc166c 3.1s done
+#5 extracting sha256:f38ab45e5d113463ca9da31e1fb7cf906f20ecbc86aaee776dd25101c079536e
+#5 extracting sha256:f38ab45e5d113463ca9da31e1fb7cf906f20ecbc86aaee776dd25101c079536e done
+#5 extracting sha256:7ab4afe453bf8beff9d986caecb7c9329b0b64da4da96d9e506a64ead0977325 0.1s
+#5 extracting sha256:7ab4afe453bf8beff9d986caecb7c9329b0b64da4da96d9e506a64ead0977325 0.3s done
+#5 DONE 9.3s
+
+#9 [build  2/10] WORKDIR /src
+#9 DONE 0.0s
+
+#10 [build  3/10] COPY [TournamentBracket.Api/TournamentBracket.Api.csproj, TournamentBracket.Api/]
+#10 DONE 0.0s
+
+#11 [build  4/10] COPY [TournamentBracket.Application/TournamentBracket.Application.csproj, TournamentBracket.Application/]
+#11 DONE 0.0s
+
+#12 [build  5/10] COPY [TournamentBracket.Domain/TournamentBracket.Domain.csproj, TournamentBracket.Domain/]
+#12 DONE 0.0s
+
+#13 [build  6/10] COPY [TournamentBracket.Infrastructure/TournamentBracket.Infrastructure.csproj, TournamentBracket.Infrastructure/]
+#13 DONE 0.0s
+
+#14 [build  7/10] RUN dotnet restore "TournamentBracket.Api/TournamentBracket.Api.csproj"
+#14 0.926   Determining projects to restore...
+#14 3.540   Restored /src/TournamentBracket.Domain/TournamentBracket.Domain.csproj (in 1.71 sec).
+#14 3.540   Restored /src/TournamentBracket.Infrastructure/TournamentBracket.Infrastructure.csproj (in 1.72 sec).
+#14 3.541   Restored /src/TournamentBracket.Application/TournamentBracket.Application.csproj (in 1.72 sec).
+#14 4.724   Restored /src/TournamentBracket.Api/TournamentBracket.Api.csproj (in 2.92 sec).
+#14 DONE 4.8s
+
+#15 [build  8/10] COPY . .
+#15 DONE 0.0s
+
+#16 [build  9/10] WORKDIR /src/TournamentBracket.Api
+#16 DONE 0.0s
+
+#17 [build 10/10] RUN dotnet build -c Release -o /app/build --no-restore
+#17 4.319 /src/TournamentBracket.Domain/Brackets/SingleEliminationBracket/SingleEliminationBracket.cs(13,18): warning CS0108: 'SingleEliminationBracket.CreatedAt' hides inherited member 'Bracket.CreatedAt'. Use the new keyword if hiding was intended. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.319 /src/TournamentBracket.Domain/Brackets/SingleEliminationBracket/SingleEliminationBracket.cs(14,18): warning CS0108: 'SingleEliminationBracket.UpdatedAt' hides inherited member 'Bracket.UpdatedAt'. Use the new keyword if hiding was intended. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.319 /src/TournamentBracket.Domain/Brackets/BracketNode.cs(13,15): warning CS8618: Non-nullable property 'Match' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.319 /src/TournamentBracket.Domain/Divisions/Division.cs(33,10): warning CS8618: Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.319 /src/TournamentBracket.Domain/Divisions/Division.cs(33,10): warning CS8618: Non-nullable property 'Competition' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.319 /src/TournamentBracket.Domain/Divisions/Division.cs(37,9): warning CS8618: Non-nullable property 'Competition' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.319 /src/TournamentBracket.Domain/Competitors/Trainer.cs(8,16): warning CS8618: Non-nullable property 'FirstName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.319 /src/TournamentBracket.Domain/Competitors/Trainer.cs(9,16): warning CS8618: Non-nullable property 'LastName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.319 /src/TournamentBracket.Domain/Competitors/Competitor.cs(9,16): warning CS8618: Non-nullable property 'FirstName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.319 /src/TournamentBracket.Domain/Competitors/Competitor.cs(10,16): warning CS8618: Non-nullable property 'LastName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.320 /src/TournamentBracket.Domain/Competitors/Competitor.cs(17,16): warning CS8618: Non-nullable property 'Subject' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.320 /src/TournamentBracket.Domain/Competitions/Competition.cs(11,16): warning CS8618: Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.320 /src/TournamentBracket.Domain/Competitions/Competition.cs(12,16): warning CS8618: Non-nullable property 'Location' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.320 /src/TournamentBracket.Domain/Competitions/Competition.cs(15,16): warning CS8618: Non-nullable property 'OwnerEmail' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.320 /src/TournamentBracket.Domain/Brackets/RoundRobinBracket/RoundRobinBracket.cs(11,31): warning CS8618: Non-nullable field 'matches' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.320 /src/TournamentBracket.Domain/Brackets/SingleEliminationBracket/SingleEliminationBracket.cs(11,21): warning CS8618: Non-nullable property 'Root' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.320 /src/TournamentBracket.Domain/Brackets/SingleEliminationBracket/SingleEliminationBracket.cs(12,21): warning CS8618: Non-nullable property 'ThirdPlace' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 4.364   TournamentBracket.Domain -> /app/build/TournamentBracket.Domain.dll
+#17 4.954   TournamentBracket.Infrastructure -> /app/build/TournamentBracket.Infrastructure.dll
+#17 6.326 /src/TournamentBracket.Application/Users/Services/TokenService.cs(32,27): warning CS8604: Possible null reference argument for parameter 'value' in 'Claim.Claim(string type, string value)'. [/src/TournamentBracket.Application/TournamentBracket.Application.csproj]
+#17 6.326 /src/TournamentBracket.Application/Competitors/Services/CompetitorService.cs(129,3): warning CS8602: Dereference of a possibly null reference. [/src/TournamentBracket.Application/TournamentBracket.Application.csproj]
+#17 6.384   TournamentBracket.Application -> /app/build/TournamentBracket.Application.dll
+#17 8.016   TournamentBracket.Api -> /app/build/TournamentBracket.Api.dll
+#17 8.029 
+#17 8.030 Build succeeded.
+#17 8.030 
+#17 8.030 /src/TournamentBracket.Domain/Brackets/SingleEliminationBracket/SingleEliminationBracket.cs(13,18): warning CS0108: 'SingleEliminationBracket.CreatedAt' hides inherited member 'Bracket.CreatedAt'. Use the new keyword if hiding was intended. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Brackets/SingleEliminationBracket/SingleEliminationBracket.cs(14,18): warning CS0108: 'SingleEliminationBracket.UpdatedAt' hides inherited member 'Bracket.UpdatedAt'. Use the new keyword if hiding was intended. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Brackets/BracketNode.cs(13,15): warning CS8618: Non-nullable property 'Match' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Divisions/Division.cs(33,10): warning CS8618: Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Divisions/Division.cs(33,10): warning CS8618: Non-nullable property 'Competition' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Divisions/Division.cs(37,9): warning CS8618: Non-nullable property 'Competition' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Competitors/Trainer.cs(8,16): warning CS8618: Non-nullable property 'FirstName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Competitors/Trainer.cs(9,16): warning CS8618: Non-nullable property 'LastName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Competitors/Competitor.cs(9,16): warning CS8618: Non-nullable property 'FirstName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Competitors/Competitor.cs(10,16): warning CS8618: Non-nullable property 'LastName' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Competitors/Competitor.cs(17,16): warning CS8618: Non-nullable property 'Subject' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Competitions/Competition.cs(11,16): warning CS8618: Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Competitions/Competition.cs(12,16): warning CS8618: Non-nullable property 'Location' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Competitions/Competition.cs(15,16): warning CS8618: Non-nullable property 'OwnerEmail' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Brackets/RoundRobinBracket/RoundRobinBracket.cs(11,31): warning CS8618: Non-nullable field 'matches' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Brackets/SingleEliminationBracket/SingleEliminationBracket.cs(11,21): warning CS8618: Non-nullable property 'Root' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Domain/Brackets/SingleEliminationBracket/SingleEliminationBracket.cs(12,21): warning CS8618: Non-nullable property 'ThirdPlace' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/TournamentBracket.Domain/TournamentBracket.Domain.csproj]
+#17 8.030 /src/TournamentBracket.Application/Users/Services/TokenService.cs(32,27): warning CS8604: Possible null reference argument for parameter 'value' in 'Claim.Claim(string type, string value)'. [/src/TournamentBracket.Application/TournamentBracket.Application.csproj]
+#17 8.030 /src/TournamentBracket.Application/Competitors/Services/CompetitorService.cs(129,3): warning CS8602: Dereference of a possibly null reference. [/src/TournamentBracket.Application/TournamentBracket.Application.csproj]
+#17 8.030     19 Warning(s)
+#17 8.030     0 Error(s)
+#17 8.031 
+#17 8.031 Time Elapsed 00:00:07.63
+#17 DONE 8.1s
+
+#18 [publish 1/1] RUN dotnet publish -c Release -o /app/publish /p:UseAppHost=false --no-restore
+#18 1.952   TournamentBracket.Domain -> /src/TournamentBracket.Domain/bin/Release/net8.0/TournamentBracket.Domain.dll
+#18 4.421   TournamentBracket.Infrastructure -> /src/TournamentBracket.Infrastructure/bin/Release/net8.0/TournamentBracket.Infrastructure.dll
+#18 5.789 /src/TournamentBracket.Application/Users/Services/TokenService.cs(32,27): warning CS8604: Possible null reference argument for parameter 'value' in 'Claim.Claim(string type, string value)'. [/src/TournamentBracket.Application/TournamentBracket.Application.csproj]
+#18 5.790 /src/TournamentBracket.Application/Competitors/Services/CompetitorService.cs(129,3): warning CS8602: Dereference of a possibly null reference. [/src/TournamentBracket.Application/TournamentBracket.Application.csproj]
+#18 5.870   TournamentBracket.Application -> /src/TournamentBracket.Application/bin/Release/net8.0/TournamentBracket.Application.dll
+#18 7.378   TournamentBracket.Api -> /src/TournamentBracket.Api/bin/Release/net8.0/TournamentBracket.Api.dll
+#18 7.473   TournamentBracket.Api -> /app/publish/
+#18 DONE 7.6s
+
+#19 [final 3/3] COPY --from=publish /app/publish .
+#19 DONE 0.0s
+
+#20 exporting to image
+#20 exporting layers
+#20 exporting layers 0.9s done
+#20 writing image sha256:e26702d70ba81e84b091cd1549e349bd4e4d74183f97de665d6ce9eca12c5b45 done
+#20 naming to ghcr.io/rizm-151207/tournamentbracket.backend:master done
+#20 DONE 0.9s
+
+#21 resolving provenance for metadata file
+#21 DONE 0.0s
+
+#22 pushing ghcr.io/rizm-151207/tournamentbracket.backend:master with docker
+#22 pushing layer eea8cab6564a
+#22 pushing layer 11f7e007d61f
+#22 pushing layer 4d89a3f33f6b
+#22 pushing layer c0d0918202d1
+#22 pushing layer 357370a34278
+#22 pushing layer c8aa5e256cf1
+#22 pushing layer 4cb51ab6d71c
+#22 pushing layer 989e799e6349
+#22 pushing layer eea8cab6564a 5.45MB / 12.89MB 0.4s
+#22 pushing layer eea8cab6564a 8.33MB / 12.89MB 0.5s
+#22 pushing layer eea8cab6564a 11.10MB / 12.89MB 0.6s
+#22 pushing layer eea8cab6564a 12.92MB / 12.89MB 0.7s
+#22 pushing layer 11f7e007d61f 1.2s done
+#22 pushing layer eea8cab6564a 1.7s done
+#22 pushing layer 357370a34278 3.2s done
+#22 pushing layer 4d89a3f33f6b 3.2s done
+#22 pushing layer c0d0918202d1 3.2s done
+#22 pushing layer c8aa5e256cf1 3.2s done
+#22 pushing layer 4cb51ab6d71c 3.2s done
+#22 pushing layer 989e799e6349 3.2s done
+#22 DONE 3.2s
