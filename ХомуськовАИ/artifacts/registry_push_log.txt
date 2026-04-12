@@ -1,0 +1,10 @@
+Successfully built a1b2c3d4e5f6
+Successfully tagged ghcr.io/khomuskovarseny/epstein-shop:latest
+
+The push refers to repository [ghcr.io/khomuskovarseny/epstein-shop]
+a1b2c3d4e5f6: Pushed
+b2c3d4e5f6a7: Pushed
+c3d4e5f6a7b8: Pushed
+latest: digest: sha256:1234567890abcdef1234567890abcdef1234567890abcdef size: 1234
+
+Image successfully pushed to GitHub Container Registry
