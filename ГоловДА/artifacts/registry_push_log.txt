@@ -1,0 +1,842 @@
+﻿2026-04-10T17:09:05.0138528Z ##[group]Run docker/build-push-action@v6
+2026-04-10T17:09:05.0138826Z with:
+2026-04-10T17:09:05.0138986Z   context: .
+2026-04-10T17:09:05.0139159Z   file: Dockerfile
+2026-04-10T17:09:05.0139333Z   push: true
+2026-04-10T17:09:05.0139965Z   tags: ghcr.io/dengoan969/naumenpracticesanatoriumproject/sanatorium-project:latest
+ghcr.io/dengoan969/naumenpracticesanatoriumproject/sanatorium-project:1abb3b6
+2026-04-10T17:09:05.0142330Z   labels: org.opencontainers.image.created=2026-04-10T17:09:04.935Z
+org.opencontainers.image.description=
+org.opencontainers.image.licenses=
+org.opencontainers.image.revision=1abb3b6f9325bc19f28873b37c611ad85a5457e0
+org.opencontainers.image.source=https://github.com/Dengoan969/NaumenPracticeSanatoriumProject
+org.opencontainers.image.title=NaumenPracticeSanatoriumProject
+org.opencontainers.image.url=https://github.com/Dengoan969/NaumenPracticeSanatoriumProject
+org.opencontainers.image.version=latest
+2026-04-10T17:09:05.0144455Z   cache-from: type=gha
+2026-04-10T17:09:05.0144688Z   cache-to: type=gha,mode=max
+2026-04-10T17:09:05.0144930Z   load: false
+2026-04-10T17:09:05.0145099Z   no-cache: false
+2026-04-10T17:09:05.0145266Z   pull: false
+2026-04-10T17:09:05.0145570Z   github-token: ***
+2026-04-10T17:09:05.0145749Z env:
+2026-04-10T17:09:05.0146055Z   IMAGE_NAME: ghcr.io/Dengoan969/NaumenPracticeSanatoriumProject/sanatorium-project
+2026-04-10T17:09:05.0146472Z   DOCKER_METADATA_OUTPUT_VERSION: latest
+2026-04-10T17:09:05.0147233Z   DOCKER_METADATA_OUTPUT_TAGS: ghcr.io/dengoan969/naumenpracticesanatoriumproject/sanatorium-project:latest
+ghcr.io/dengoan969/naumenpracticesanatoriumproject/sanatorium-project:1abb3b6
+2026-04-10T17:09:05.0148027Z   DOCKER_METADATA_OUTPUT_TAG_NAMES: latest
+1abb3b6
+2026-04-10T17:09:05.0150020Z   DOCKER_METADATA_OUTPUT_LABELS: org.opencontainers.image.created=2026-04-10T17:09:04.935Z
+org.opencontainers.image.description=
+org.opencontainers.image.licenses=
+org.opencontainers.image.revision=1abb3b6f9325bc19f28873b37c611ad85a5457e0
+org.opencontainers.image.source=https://github.com/Dengoan969/NaumenPracticeSanatoriumProject
+org.opencontainers.image.title=NaumenPracticeSanatoriumProject
+org.opencontainers.image.url=https://github.com/Dengoan969/NaumenPracticeSanatoriumProject
+org.opencontainers.image.version=latest
+2026-04-10T17:09:05.0154271Z   DOCKER_METADATA_OUTPUT_ANNOTATIONS: manifest:org.opencontainers.image.created=2026-04-10T17:09:04.935Z
+manifest:org.opencontainers.image.description=
+manifest:org.opencontainers.image.licenses=
+manifest:org.opencontainers.image.revision=1abb3b6f9325bc19f28873b37c611ad85a5457e0
+manifest:org.opencontainers.image.source=https://github.com/Dengoan969/NaumenPracticeSanatoriumProject
+manifest:org.opencontainers.image.title=NaumenPracticeSanatoriumProject
+manifest:org.opencontainers.image.url=https://github.com/Dengoan969/NaumenPracticeSanatoriumProject
+manifest:org.opencontainers.image.version=latest
+2026-04-10T17:09:05.0161064Z   DOCKER_METADATA_OUTPUT_JSON: {"tags":["ghcr.io/dengoan969/naumenpracticesanatoriumproject/sanatorium-project:latest","ghcr.io/dengoan969/naumenpracticesanatoriumproject/sanatorium-project:1abb3b6"],"tag-names":["latest","1abb3b6"],"labels":{"org.opencontainers.image.created":"2026-04-10T17:09:04.935Z","org.opencontainers.image.description":"","org.opencontainers.image.licenses":"","org.opencontainers.image.revision":"1abb3b6f9325bc19f28873b37c611ad85a5457e0","org.opencontainers.image.source":"https://github.com/Dengoan969/NaumenPracticeSanatoriumProject","org.opencontainers.image.title":"NaumenPracticeSanatoriumProject","org.opencontainers.image.url":"https://github.com/Dengoan969/NaumenPracticeSanatoriumProject","org.opencontainers.image.version":"latest"},"annotations":["manifest:org.opencontainers.image.created=2026-04-10T17:09:04.935Z","manifest:org.opencontainers.image.description=","manifest:org.opencontainers.image.licenses=","manifest:org.opencontainers.image.revision=1abb3b6f9325bc19f28873b37c611ad85a5457e0","manifest:org.opencontainers.image.source=https://github.com/Dengoan969/NaumenPracticeSanatoriumProject","manifest:org.opencontainers.image.title=NaumenPracticeSanatoriumProject","manifest:org.opencontainers.image.url=https://github.com/Dengoan969/NaumenPracticeSanatoriumProject","manifest:org.opencontainers.image.version=latest"]}
+2026-04-10T17:09:05.0166926Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_TAGS: /home/runner/work/_temp/docker-actions-toolkit-qyWPpW/docker-metadata-action-bake-tags.json
+2026-04-10T17:09:05.0167804Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_LABELS: /home/runner/work/_temp/docker-actions-toolkit-qyWPpW/docker-metadata-action-bake-labels.json
+2026-04-10T17:09:05.0168737Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_ANNOTATIONS: /home/runner/work/_temp/docker-actions-toolkit-qyWPpW/docker-metadata-action-bake-annotations.json
+2026-04-10T17:09:05.0169611Z   DOCKER_METADATA_OUTPUT_BAKE_FILE: /home/runner/work/_temp/docker-actions-toolkit-qyWPpW/docker-metadata-action-bake.json
+2026-04-10T17:09:05.0170119Z ##[endgroup]
+2026-04-10T17:09:05.2630703Z ##[group]GitHub Actions runtime token ACs
+2026-04-10T17:09:05.2642155Z refs/heads/main: read/write
+2026-04-10T17:09:05.2643549Z ##[endgroup]
+2026-04-10T17:09:05.2644654Z ##[group]Docker info
+2026-04-10T17:09:05.2710867Z [command]/usr/bin/docker version
+2026-04-10T17:09:05.2894914Z Client: Docker Engine - Community
+2026-04-10T17:09:05.2895456Z  Version:           28.0.4
+2026-04-10T17:09:05.2898061Z  API version:       1.48
+2026-04-10T17:09:05.2898472Z  Go version:        go1.23.7
+2026-04-10T17:09:05.2898853Z  Git commit:        b8034c0
+2026-04-10T17:09:05.2899215Z  Built:             Tue Mar 25 15:07:16 2025
+2026-04-10T17:09:05.2899523Z  OS/Arch:           linux/amd64
+2026-04-10T17:09:05.2899772Z  Context:           default
+2026-04-10T17:09:05.2899931Z 
+2026-04-10T17:09:05.2900032Z Server: Docker Engine - Community
+2026-04-10T17:09:05.2900314Z  Engine:
+2026-04-10T17:09:05.2900504Z   Version:          28.0.4
+2026-04-10T17:09:05.2900774Z   API version:      1.48 (minimum version 1.24)
+2026-04-10T17:09:05.2901077Z   Go version:       go1.23.7
+2026-04-10T17:09:05.2901380Z   Git commit:       6430e49
+2026-04-10T17:09:05.2901638Z   Built:            Tue Mar 25 15:07:16 2025
+2026-04-10T17:09:05.2901921Z   OS/Arch:          linux/amd64
+2026-04-10T17:09:05.2902164Z   Experimental:     false
+2026-04-10T17:09:05.2902393Z  containerd:
+2026-04-10T17:09:05.2902579Z   Version:          v2.2.2
+2026-04-10T17:09:05.2902969Z   GitCommit:        301b2dac98f15c27117da5c8af12118a041a31d9
+2026-04-10T17:09:05.2903527Z  runc:
+2026-04-10T17:09:05.2903713Z   Version:          1.3.4
+2026-04-10T17:09:05.2903951Z   GitCommit:        v1.3.4-0-gd6d73eb8
+2026-04-10T17:09:05.2904242Z  docker-init:
+2026-04-10T17:09:05.2904481Z   Version:          0.19.0
+2026-04-10T17:09:05.2904687Z   GitCommit:        de40ad0
+2026-04-10T17:09:05.2942495Z [command]/usr/bin/docker info
+2026-04-10T17:09:05.3352016Z Client: Docker Engine - Community
+2026-04-10T17:09:05.3352590Z  Version:    28.0.4
+2026-04-10T17:09:05.3353213Z  Context:    default
+2026-04-10T17:09:05.3353535Z  Debug Mode: false
+2026-04-10T17:09:05.3355332Z  Plugins:
+2026-04-10T17:09:05.3355665Z   buildx: Docker Buildx (Docker Inc.)
+2026-04-10T17:09:05.3356005Z     Version:  v0.33.0
+2026-04-10T17:09:05.3356287Z     Path:     /usr/libexec/docker/cli-plugins/docker-buildx
+2026-04-10T17:09:05.3356639Z   compose: Docker Compose (Docker Inc.)
+2026-04-10T17:09:05.3356892Z     Version:  v2.38.2
+2026-04-10T17:09:05.3357169Z     Path:     /usr/libexec/docker/cli-plugins/docker-compose
+2026-04-10T17:09:05.3357403Z 
+2026-04-10T17:09:05.3357480Z Server:
+2026-04-10T17:09:05.3357646Z  Containers: 1
+2026-04-10T17:09:05.3357829Z   Running: 1
+2026-04-10T17:09:05.3357995Z   Paused: 0
+2026-04-10T17:09:05.3358168Z   Stopped: 0
+2026-04-10T17:09:05.3358332Z  Images: 7
+2026-04-10T17:09:05.3358511Z  Server Version: 28.0.4
+2026-04-10T17:09:05.3358720Z  Storage Driver: overlay2
+2026-04-10T17:09:05.3358945Z   Backing Filesystem: extfs
+2026-04-10T17:09:05.3359165Z   Supports d_type: true
+2026-04-10T17:09:05.3359376Z   Using metacopy: false
+2026-04-10T17:09:05.3359591Z   Native Overlay Diff: false
+2026-04-10T17:09:05.3359971Z   userxattr: false
+2026-04-10T17:09:05.3360173Z  Logging Driver: json-file
+2026-04-10T17:09:05.3360394Z  Cgroup Driver: systemd
+2026-04-10T17:09:05.3360600Z  Cgroup Version: 2
+2026-04-10T17:09:05.3360777Z  Plugins:
+2026-04-10T17:09:05.3360952Z   Volume: local
+2026-04-10T17:09:05.3361169Z   Network: bridge host ipvlan macvlan null overlay
+2026-04-10T17:09:05.3361624Z   Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+2026-04-10T17:09:05.3361980Z  Swarm: inactive
+2026-04-10T17:09:05.3362194Z  Runtimes: runc io.containerd.runc.v2
+2026-04-10T17:09:05.3362448Z  Default Runtime: runc
+2026-04-10T17:09:05.3362659Z  Init Binary: docker-init
+2026-04-10T17:09:05.3362949Z  containerd version: 301b2dac98f15c27117da5c8af12118a041a31d9
+2026-04-10T17:09:05.3363640Z  runc version: v1.3.4-0-gd6d73eb8
+2026-04-10T17:09:05.3363900Z  init version: de40ad0
+2026-04-10T17:09:05.3364289Z  Security Options:
+2026-04-10T17:09:05.3364559Z   apparmor
+2026-04-10T17:09:05.3364741Z   seccomp
+2026-04-10T17:09:05.3364918Z    Profile: builtin
+2026-04-10T17:09:05.3365095Z   cgroupns
+2026-04-10T17:09:05.3365276Z  Kernel Version: 6.17.0-1010-azure
+2026-04-10T17:09:05.3365520Z  Operating System: Ubuntu 24.04.4 LTS
+2026-04-10T17:09:05.3365762Z  OSType: linux
+2026-04-10T17:09:05.3365943Z  Architecture: x86_64
+2026-04-10T17:09:05.3366140Z  CPUs: 4
+2026-04-10T17:09:05.3366316Z  Total Memory: 15.62GiB
+2026-04-10T17:09:05.3366513Z  Name: runnervm35a4x
+2026-04-10T17:09:05.3366730Z  ID: 87e60688-5316-4409-91d0-e920c95c7873
+2026-04-10T17:09:05.3366987Z  Docker Root Dir: /var/lib/docker
+2026-04-10T17:09:05.3367218Z  Debug Mode: false
+2026-04-10T17:09:05.3367411Z  Username: githubactions
+2026-04-10T17:09:05.3367625Z  Experimental: false
+2026-04-10T17:09:05.3367826Z  Insecure Registries:
+2026-04-10T17:09:05.3368050Z   ::1/128
+2026-04-10T17:09:05.3368209Z   127.0.0.0/8
+2026-04-10T17:09:05.3368475Z  Live Restore Enabled: false
+2026-04-10T17:09:05.3368717Z 
+2026-04-10T17:09:05.3369144Z ##[endgroup]
+2026-04-10T17:09:05.3369620Z ##[group]Proxy configuration
+2026-04-10T17:09:05.3372596Z No proxy configuration found
+2026-04-10T17:09:05.3373540Z ##[endgroup]
+2026-04-10T17:09:05.3929462Z ##[group]Buildx version
+2026-04-10T17:09:05.3955412Z [command]/usr/bin/docker buildx version
+2026-04-10T17:09:05.4456172Z github.com/docker/buildx v0.33.0 f7897eba028583e0071642db3c011e860444f8cf
+2026-04-10T17:09:05.4486251Z ##[endgroup]
+2026-04-10T17:09:05.4486775Z ##[group]Builder info
+2026-04-10T17:09:05.5363902Z {
+2026-04-10T17:09:05.5364238Z   "nodes": [
+2026-04-10T17:09:05.5364564Z     {
+2026-04-10T17:09:05.5364999Z       "name": "builder-19b4f40c-ad86-4637-940a-0d07cb5b5e9c0",
+2026-04-10T17:09:05.5365621Z       "endpoint": "unix:///var/run/docker.sock",
+2026-04-10T17:09:05.5366104Z       "status": "running",
+2026-04-10T17:09:05.5366936Z       "buildkitd-flags": "--allow-insecure-entitlement security.insecure --allow-insecure-entitlement network.host",
+2026-04-10T17:09:05.5367863Z       "buildkit": "v0.29.0",
+2026-04-10T17:09:05.5368807Z       "platforms": "linux/amd64,linux/amd64/v2,linux/amd64/v3,linux/386",
+2026-04-10T17:09:05.5369486Z       "features": {
+2026-04-10T17:09:05.5369999Z         "Automatically load images to the Docker Engine image store": true,
+2026-04-10T17:09:05.5370632Z         "Cache export": true,
+2026-04-10T17:09:05.5371001Z         "Direct push": true,
+2026-04-10T17:09:05.5371386Z         "Docker exporter": true,
+2026-04-10T17:09:05.5371814Z         "Multi-platform build": true,
+2026-04-10T17:09:05.5372266Z         "OCI exporter": true
+2026-04-10T17:09:05.5372609Z       },
+2026-04-10T17:09:05.5372889Z       "labels": {
+2026-04-10T17:09:05.5373594Z         "org.mobyproject.buildkit.worker.executor": "oci",
+2026-04-10T17:09:05.5374318Z         "org.mobyproject.buildkit.worker.hostname": "ba04de8ae258",
+2026-04-10T17:09:05.5374994Z         "org.mobyproject.buildkit.worker.network": "host",
+2026-04-10T17:09:05.5375714Z         "org.mobyproject.buildkit.worker.oci.process-mode": "sandbox",
+2026-04-10T17:09:05.5376516Z         "org.mobyproject.buildkit.worker.selinux.enabled": "false",
+2026-04-10T17:09:05.5377489Z         "org.mobyproject.buildkit.worker.snapshotter": "overlayfs"
+2026-04-10T17:09:05.5378063Z       },
+2026-04-10T17:09:05.5378351Z       "gcPolicy": [
+2026-04-10T17:09:05.5378674Z         {
+2026-04-10T17:09:05.5378959Z           "all": false,
+2026-04-10T17:09:05.5379303Z           "filter": [
+2026-04-10T17:09:05.5379655Z             "type==source.local",
+2026-04-10T17:09:05.5380101Z             "type==exec.cachemount",
+2026-04-10T17:09:05.5380560Z             "type==source.git.checkout"
+2026-04-10T17:09:05.5380978Z           ],
+2026-04-10T17:09:05.5381296Z           "keepDuration": "48h0m0s",
+2026-04-10T17:09:05.5381712Z           "maxUsedSpace": "488.3MiB"
+2026-04-10T17:09:05.5382104Z         },
+2026-04-10T17:09:05.5382378Z         {
+2026-04-10T17:09:05.5382665Z           "all": false,
+2026-04-10T17:09:05.5383357Z           "keepDuration": "1440h0m0s",
+2026-04-10T17:09:05.5383842Z           "reservedSpace": "9.313GiB",
+2026-04-10T17:09:05.5384311Z           "maxUsedSpace": "93.13GiB",
+2026-04-10T17:09:05.5384736Z           "minFreeSpace": "27.01GiB"
+2026-04-10T17:09:05.5385145Z         },
+2026-04-10T17:09:05.5385409Z         {
+2026-04-10T17:09:05.5385691Z           "all": false,
+2026-04-10T17:09:05.5386041Z           "reservedSpace": "9.313GiB",
+2026-04-10T17:09:05.5386469Z           "maxUsedSpace": "93.13GiB",
+2026-04-10T17:09:05.5386891Z           "minFreeSpace": "27.01GiB"
+2026-04-10T17:09:05.5387290Z         },
+2026-04-10T17:09:05.5387559Z         {
+2026-04-10T17:09:05.5387835Z           "all": true,
+2026-04-10T17:09:05.5388197Z           "reservedSpace": "9.313GiB",
+2026-04-10T17:09:05.5388620Z           "maxUsedSpace": "93.13GiB",
+2026-04-10T17:09:05.5389042Z           "minFreeSpace": "27.01GiB"
+2026-04-10T17:09:05.5389459Z         }
+2026-04-10T17:09:05.5389733Z       ]
+2026-04-10T17:09:05.5390009Z     }
+2026-04-10T17:09:05.5390266Z   ],
+2026-04-10T17:09:05.5390662Z   "name": "builder-19b4f40c-ad86-4637-940a-0d07cb5b5e9c",
+2026-04-10T17:09:05.5391216Z   "driver": "docker-container",
+2026-04-10T17:09:05.5391661Z   "lastActivity": "2026-04-10T17:09:00.000Z"
+2026-04-10T17:09:05.5392091Z }
+2026-04-10T17:09:05.5392679Z ##[endgroup]
+2026-04-10T17:09:05.6918315Z [command]/usr/bin/docker buildx build --cache-from type=gha --cache-to type=gha,mode=max --file Dockerfile --iidfile /home/runner/work/_temp/docker-actions-toolkit-gh2lkd/build-iidfile-76c37206c9.txt --label org.opencontainers.image.created=2026-04-10T17:09:04.935Z --label org.opencontainers.image.description= --label org.opencontainers.image.licenses= --label org.opencontainers.image.revision=1abb3b6f9325bc19f28873b37c611ad85a5457e0 --label org.opencontainers.image.source=https://github.com/Dengoan969/NaumenPracticeSanatoriumProject --label org.opencontainers.image.title=NaumenPracticeSanatoriumProject --label org.opencontainers.image.url=https://github.com/Dengoan969/NaumenPracticeSanatoriumProject --label org.opencontainers.image.version=latest --attest type=provenance,mode=max,builder-id=https://github.com/Dengoan969/NaumenPracticeSanatoriumProject/actions/runs/24254688620/attempts/1 --tag ghcr.io/dengoan969/naumenpracticesanatoriumproject/sanatorium-project:latest --tag ghcr.io/dengoan969/naumenpracticesanatoriumproject/sanatorium-project:1abb3b6 --metadata-file /home/runner/work/_temp/docker-actions-toolkit-gh2lkd/build-metadata-467a5beee2.json --push .
+2026-04-10T17:09:05.9981842Z #0 building with "builder-19b4f40c-ad86-4637-940a-0d07cb5b5e9c" instance using docker-container driver
+2026-04-10T17:09:05.9982554Z 
+2026-04-10T17:09:05.9982762Z #1 [internal] load build definition from Dockerfile
+2026-04-10T17:09:05.9983553Z #1 transferring dockerfile: 927B done
+2026-04-10T17:09:05.9984029Z #1 DONE 0.0s
+2026-04-10T17:09:05.9984166Z 
+2026-04-10T17:09:05.9984410Z #2 [auth] library/eclipse-temurin:pull token for registry-1.docker.io
+2026-04-10T17:09:05.9984856Z #2 DONE 0.0s
+2026-04-10T17:09:05.9985062Z 
+2026-04-10T17:09:05.9985321Z #3 [auth] library/node:pull token for registry-1.docker.io
+2026-04-10T17:09:05.9986182Z #3 DONE 0.0s
+2026-04-10T17:09:05.9986418Z 
+2026-04-10T17:09:05.9986640Z #4 [auth] library/maven:pull token for registry-1.docker.io
+2026-04-10T17:09:05.9987028Z #4 DONE 0.0s
+2026-04-10T17:09:05.9987253Z 
+2026-04-10T17:09:05.9987692Z #5 [internal] load metadata for docker.io/library/maven:3.9-eclipse-temurin-21-alpine
+2026-04-10T17:09:06.1851034Z #5 DONE 0.4s
+2026-04-10T17:09:06.1851361Z 
+2026-04-10T17:09:06.1851589Z #6 [internal] load metadata for docker.io/library/node:20-alpine
+2026-04-10T17:09:06.3255892Z #6 DONE 0.4s
+2026-04-10T17:09:06.3256204Z 
+2026-04-10T17:09:06.3259457Z #7 [internal] load metadata for docker.io/library/eclipse-temurin:21-jre-alpine
+2026-04-10T17:09:06.3260619Z #7 DONE 0.4s
+2026-04-10T17:09:06.3261291Z 
+2026-04-10T17:09:06.3261637Z #8 [internal] load .dockerignore
+2026-04-10T17:09:06.3264808Z #8 transferring context: 287B done
+2026-04-10T17:09:06.3265527Z #8 DONE 0.0s
+2026-04-10T17:09:06.3266152Z 
+2026-04-10T17:09:06.3266632Z #9 importing cache manifest from gha:4427580690445111679
+2026-04-10T17:09:06.3270889Z #9 DONE 0.0s
+2026-04-10T17:09:06.3274182Z 
+2026-04-10T17:09:06.3275220Z #10 [runtime 1/7] FROM docker.io/library/eclipse-temurin:21-jre-alpine@sha256:6ad8ed080d9be96b61438ec3ce99388e294af216ed57356000c06070e85c5d5d
+2026-04-10T17:09:06.3277714Z #10 resolve docker.io/library/eclipse-temurin:21-jre-alpine@sha256:6ad8ed080d9be96b61438ec3ce99388e294af216ed57356000c06070e85c5d5d done
+2026-04-10T17:09:06.3280320Z #10 DONE 0.1s
+2026-04-10T17:09:06.3283657Z 
+2026-04-10T17:09:06.3284145Z #11 [frontend-build 1/6] FROM docker.io/library/node:20-alpine@sha256:f598378b5240225e6beab68fa9f356db1fb8efe55173e6d4d8153113bb8f333c
+2026-04-10T17:09:06.3285963Z #11 resolve docker.io/library/node:20-alpine@sha256:f598378b5240225e6beab68fa9f356db1fb8efe55173e6d4d8153113bb8f333c done
+2026-04-10T17:09:06.4411606Z #11 ...
+2026-04-10T17:09:06.4413987Z 
+2026-04-10T17:09:06.4414295Z #12 [internal] load build context
+2026-04-10T17:09:06.4414859Z #12 transferring context: 2.04MB 0.1s done
+2026-04-10T17:09:06.4415186Z #12 DONE 0.1s
+2026-04-10T17:09:06.4415298Z 
+2026-04-10T17:09:06.4415708Z #11 [frontend-build 1/6] FROM docker.io/library/node:20-alpine@sha256:f598378b5240225e6beab68fa9f356db1fb8efe55173e6d4d8153113bb8f333c
+2026-04-10T17:09:06.5635641Z #11 sha256:c7734204880fafbd6297ce1844e07c137d82ee814ac8b5fa6ac1a3659101d503 446B / 446B 0.1s done
+2026-04-10T17:09:06.5636834Z #11 sha256:62e0e1181d88da8ed0e2fda221e9446ad0f09a004a375193ad7a38e31ec4eab4 1.26MB / 1.26MB 0.0s done
+2026-04-10T17:09:06.7012380Z #11 sha256:d7f6aca05b78f475975eeac3898b7ef0a618937174c469650e05e81cbf8c5f46 5.24MB / 43.23MB 0.2s
+2026-04-10T17:09:06.8984181Z #11 sha256:d7f6aca05b78f475975eeac3898b7ef0a618937174c469650e05e81cbf8c5f46 26.21MB / 43.23MB 0.3s
+2026-04-10T17:09:07.0048382Z #11 sha256:d7f6aca05b78f475975eeac3898b7ef0a618937174c469650e05e81cbf8c5f46 33.55MB / 43.23MB 0.5s
+2026-04-10T17:09:07.1580553Z #11 sha256:d7f6aca05b78f475975eeac3898b7ef0a618937174c469650e05e81cbf8c5f46 43.23MB / 43.23MB 0.7s done
+2026-04-10T17:09:07.2583359Z #11 extracting sha256:d7f6aca05b78f475975eeac3898b7ef0a618937174c469650e05e81cbf8c5f46
+2026-04-10T17:09:08.3979735Z #11 ...
+2026-04-10T17:09:08.3980180Z 
+2026-04-10T17:09:08.3981060Z #10 [runtime 1/7] FROM docker.io/library/eclipse-temurin:21-jre-alpine@sha256:6ad8ed080d9be96b61438ec3ce99388e294af216ed57356000c06070e85c5d5d
+2026-04-10T17:09:08.3982698Z #10 sha256:1a7a516dcbb69b4973083542d2549433254cc064cec8da3251f7d889b69099e2 128B / 128B 0.0s done
+2026-04-10T17:09:08.3984250Z #10 sha256:3655cb26ed1af33f0fe5361c725d9b419f8f7e57bb595528b27cc387059adaa2 2.28kB / 2.28kB 0.1s done
+2026-04-10T17:09:08.3985430Z #10 sha256:589002ba0eaed121a1dbf42f6648f29e5be55d5c8a6ee0f8eaa0285cc21ac153 3.86MB / 3.86MB 0.1s done
+2026-04-10T17:09:08.3986646Z #10 extracting sha256:589002ba0eaed121a1dbf42f6648f29e5be55d5c8a6ee0f8eaa0285cc21ac153 0.1s done
+2026-04-10T17:09:08.3987819Z #10 sha256:5df9c4c4dcbf56dc89e6ef5eb334bec79efa46ced3dd8fb4b4a2cb7d1985e1ab 53.17MB / 53.17MB 0.9s done
+2026-04-10T17:09:08.3989471Z #10 sha256:71075870ab4982d45fa235ee69bf94cf05112736cabcd28cb26fe512a6cc2c15 16.84MB / 16.84MB 0.2s done
+2026-04-10T17:09:08.3990618Z #10 extracting sha256:71075870ab4982d45fa235ee69bf94cf05112736cabcd28cb26fe512a6cc2c15 0.4s done
+2026-04-10T17:09:08.3991807Z #10 extracting sha256:5df9c4c4dcbf56dc89e6ef5eb334bec79efa46ced3dd8fb4b4a2cb7d1985e1ab 1.1s done
+2026-04-10T17:09:08.3992931Z #10 extracting sha256:1a7a516dcbb69b4973083542d2549433254cc064cec8da3251f7d889b69099e2 done
+2026-04-10T17:09:08.3994191Z #10 extracting sha256:3655cb26ed1af33f0fe5361c725d9b419f8f7e57bb595528b27cc387059adaa2 done
+2026-04-10T17:09:08.3994936Z #10 DONE 2.1s
+2026-04-10T17:09:08.5476601Z 
+2026-04-10T17:09:08.5478432Z #13 [backend-build 1/6] FROM docker.io/library/maven:3.9-eclipse-temurin-21-alpine@sha256:b9c89e0a0e292a8b8eb5e68c9cf24335f99bbf1483e8c7b56c2b9b96087ad56d
+2026-04-10T17:09:08.5480287Z #13 resolve docker.io/library/maven:3.9-eclipse-temurin-21-alpine@sha256:b9c89e0a0e292a8b8eb5e68c9cf24335f99bbf1483e8c7b56c2b9b96087ad56d done
+2026-04-10T17:09:08.5481728Z #13 sha256:6fce97b56f1dd9453692f70d804cc12d7b9da6e5a0e68f52a565f1ac82bbf3a9 155B / 155B 0.1s done
+2026-04-10T17:09:08.5482900Z #13 sha256:5493e917f3bb9d30377b7093eb08bd71d4885aa7b6dc82972cc761fb63ba3ebb 861B / 861B 0.1s done
+2026-04-10T17:09:08.5484193Z #13 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 0.1s done
+2026-04-10T17:09:08.5485305Z #13 sha256:9e94de3fac05ca391734f88994a496c8d4c148fb1615cc56735e151c32a9ef2f 3.59MB / 3.59MB 0.1s done
+2026-04-10T17:09:08.5486535Z #13 sha256:32b736977b63e2d08f494efff566b76b53223018ba70ef3f070289f1f0830e61 2.28kB / 2.28kB 0.0s done
+2026-04-10T17:09:08.5487439Z #13 sha256:87268e8a5c4e087d3c762f1eb54a82f41e821bccb6894c73ccab92b027dace7e 9.31MB / 9.31MB 0.1s done
+2026-04-10T17:09:08.5488330Z #13 sha256:6d0b3aa0fc9566eb09be60af94e6aa6908c7e5e316b531ec5a22f49ee8685b66 126B / 126B 0.0s done
+2026-04-10T17:09:08.5489095Z #13 sha256:52562347e5095f91dcef07e31744d38da2218e3d68ed36686ee889ef31ae2406 158.12MB / 158.12MB 1.8s
+2026-04-10T17:09:08.5490049Z #13 sha256:ebf27b2f1dcc34bb3592032d2fca01d720abfd1e6baa1293e287a9ccab686e2c 21.32MB / 21.32MB 0.1s done
+2026-04-10T17:09:08.5490963Z #13 extracting sha256:ebf27b2f1dcc34bb3592032d2fca01d720abfd1e6baa1293e287a9ccab686e2c 0.6s done
+2026-04-10T17:09:08.6613983Z #13 sha256:52562347e5095f91dcef07e31744d38da2218e3d68ed36686ee889ef31ae2406 158.12MB / 158.12MB 1.9s done
+2026-04-10T17:09:08.6619841Z #13 extracting sha256:52562347e5095f91dcef07e31744d38da2218e3d68ed36686ee889ef31ae2406
+2026-04-10T17:09:08.8753710Z #13 ...
+2026-04-10T17:09:08.8753997Z 
+2026-04-10T17:09:08.8756020Z #11 [frontend-build 1/6] FROM docker.io/library/node:20-alpine@sha256:f598378b5240225e6beab68fa9f356db1fb8efe55173e6d4d8153113bb8f333c
+2026-04-10T17:09:08.8757358Z #11 extracting sha256:d7f6aca05b78f475975eeac3898b7ef0a618937174c469650e05e81cbf8c5f46 1.5s done
+2026-04-10T17:09:08.8758378Z #11 extracting sha256:62e0e1181d88da8ed0e2fda221e9446ad0f09a004a375193ad7a38e31ec4eab4 0.3s done
+2026-04-10T17:09:08.8761431Z #11 DONE 2.6s
+2026-04-10T17:09:09.0733441Z 
+2026-04-10T17:09:09.0734596Z #11 [frontend-build 1/6] FROM docker.io/library/node:20-alpine@sha256:f598378b5240225e6beab68fa9f356db1fb8efe55173e6d4d8153113bb8f333c
+2026-04-10T17:09:09.0735782Z #11 extracting sha256:c7734204880fafbd6297ce1844e07c137d82ee814ac8b5fa6ac1a3659101d503 0.0s done
+2026-04-10T17:09:09.0736568Z #11 DONE 2.7s
+2026-04-10T17:09:09.0736769Z 
+2026-04-10T17:09:09.0737113Z #14 [frontend-build 2/6] WORKDIR /frontend
+2026-04-10T17:09:10.0179361Z #14 ...
+2026-04-10T17:09:10.0179669Z 
+2026-04-10T17:09:10.0180088Z #15 [runtime 2/7] RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+2026-04-10T17:09:10.0180736Z #15 DONE 1.7s
+2026-04-10T17:09:10.1178186Z 
+2026-04-10T17:09:10.1180702Z #14 [frontend-build 2/6] WORKDIR /frontend
+2026-04-10T17:09:10.1182235Z #14 DONE 1.1s
+2026-04-10T17:09:10.1183338Z 
+2026-04-10T17:09:10.1184308Z #16 [runtime 3/7] WORKDIR /app
+2026-04-10T17:09:10.1185009Z #16 DONE 0.1s
+2026-04-10T17:09:10.1185559Z 
+2026-04-10T17:09:10.1186780Z #17 [frontend-build 3/6] COPY frontend/package.json frontend/package-lock.json ./
+2026-04-10T17:09:10.1189208Z #17 DONE 0.1s
+2026-04-10T17:09:10.1189560Z 
+2026-04-10T17:09:10.1189962Z #18 [frontend-build 4/6] RUN npm ci --production=false
+2026-04-10T17:09:10.3644456Z #18 0.244 npm warn config production Use `--omit=dev` instead.
+2026-04-10T17:09:10.5346282Z #18 ...
+2026-04-10T17:09:10.5346745Z 
+2026-04-10T17:09:10.5347754Z #13 [backend-build 1/6] FROM docker.io/library/maven:3.9-eclipse-temurin-21-alpine@sha256:b9c89e0a0e292a8b8eb5e68c9cf24335f99bbf1483e8c7b56c2b9b96087ad56d
+2026-04-10T17:09:10.5349401Z #13 extracting sha256:52562347e5095f91dcef07e31744d38da2218e3d68ed36686ee889ef31ae2406 1.9s done
+2026-04-10T17:09:10.5350161Z #13 DONE 4.2s
+2026-04-10T17:09:10.7159922Z 
+2026-04-10T17:09:10.7161623Z #13 [backend-build 1/6] FROM docker.io/library/maven:3.9-eclipse-temurin-21-alpine@sha256:b9c89e0a0e292a8b8eb5e68c9cf24335f99bbf1483e8c7b56c2b9b96087ad56d
+2026-04-10T17:09:10.7163849Z #13 extracting sha256:6d0b3aa0fc9566eb09be60af94e6aa6908c7e5e316b531ec5a22f49ee8685b66 done
+2026-04-10T17:09:10.7165193Z #13 extracting sha256:32b736977b63e2d08f494efff566b76b53223018ba70ef3f070289f1f0830e61 done
+2026-04-10T17:09:10.7166883Z #13 extracting sha256:9e94de3fac05ca391734f88994a496c8d4c148fb1615cc56735e151c32a9ef2f 0.1s done
+2026-04-10T17:09:10.7167984Z #13 extracting sha256:87268e8a5c4e087d3c762f1eb54a82f41e821bccb6894c73ccab92b027dace7e 0.1s done
+2026-04-10T17:09:10.7168808Z #13 DONE 4.4s
+2026-04-10T17:09:10.7169182Z 
+2026-04-10T17:09:10.7169570Z #18 [frontend-build 4/6] RUN npm ci --production=false
+2026-04-10T17:09:10.9256358Z #18 ...
+2026-04-10T17:09:10.9293854Z 
+2026-04-10T17:09:10.9324559Z #13 [backend-build 1/6] FROM docker.io/library/maven:3.9-eclipse-temurin-21-alpine@sha256:b9c89e0a0e292a8b8eb5e68c9cf24335f99bbf1483e8c7b56c2b9b96087ad56d
+2026-04-10T17:09:10.9326087Z #13 extracting sha256:5493e917f3bb9d30377b7093eb08bd71d4885aa7b6dc82972cc761fb63ba3ebb done
+2026-04-10T17:09:10.9327251Z #13 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 done
+2026-04-10T17:09:10.9328348Z #13 extracting sha256:6fce97b56f1dd9453692f70d804cc12d7b9da6e5a0e68f52a565f1ac82bbf3a9 done
+2026-04-10T17:09:10.9329092Z #13 DONE 4.4s
+2026-04-10T17:09:10.9329283Z 
+2026-04-10T17:09:10.9329451Z #19 [backend-build 2/6] WORKDIR /backend
+2026-04-10T17:09:10.9329875Z #19 DONE 0.0s
+2026-04-10T17:09:10.9330057Z 
+2026-04-10T17:09:10.9330234Z #20 [backend-build 3/6] COPY pom.xml ./
+2026-04-10T17:09:10.9330637Z #20 DONE 0.0s
+2026-04-10T17:09:11.0743177Z 
+2026-04-10T17:09:11.0744282Z #21 [backend-build 4/6] RUN mvn dependency:go-offline -q
+2026-04-10T17:09:16.3240127Z #21 ...
+2026-04-10T17:09:16.3240901Z 
+2026-04-10T17:09:16.3245927Z #18 [frontend-build 4/6] RUN npm ci --production=false
+2026-04-10T17:09:16.3246652Z #18 6.206 npm warn deprecated whatwg-encoding@1.0.5: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+2026-04-10T17:09:16.5288949Z #18 6.260 npm warn deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+2026-04-10T17:09:16.7480919Z #18 6.629 npm warn deprecated workbox-google-analytics@6.6.0: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
+2026-04-10T17:09:16.9582956Z #18 6.839 npm warn deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+2026-04-10T17:09:17.1615728Z #18 6.893 npm warn deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+2026-04-10T17:09:17.1840204Z #18 7.065 npm warn deprecated workbox-cacheable-response@6.6.0: workbox-background-sync@6.6.0
+2026-04-10T17:09:17.3393749Z #18 7.070 npm warn deprecated rollup-plugin-terser@7.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+2026-04-10T17:09:17.3396074Z #18 7.071 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+2026-04-10T17:09:17.4717023Z #18 7.353 npm warn deprecated q@1.5.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+2026-04-10T17:09:17.4723576Z #18 7.353 npm warn deprecated
+2026-04-10T17:09:17.4724692Z #18 7.353 npm warn deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+2026-04-10T17:09:18.9273628Z #18 8.809 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+2026-04-10T17:09:19.1697245Z #18 9.049 npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+2026-04-10T17:09:19.4935314Z #18 9.375 npm warn deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+2026-04-10T17:09:19.7125503Z #18 9.594 npm warn deprecated domexception@2.0.1: Use your platform's native DOMException instead
+2026-04-10T17:09:20.5406243Z #18 10.42 npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+2026-04-10T17:09:21.5384665Z #18 11.42 npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+2026-04-10T17:09:21.7090133Z #18 11.44 npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+2026-04-10T17:09:22.1964320Z #18 12.08 npm warn deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+2026-04-10T17:09:22.4229873Z #18 12.13 npm warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+2026-04-10T17:09:22.4235119Z #18 12.14 npm warn deprecated @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+2026-04-10T17:09:22.4237901Z #18 12.15 npm warn deprecated @babel/plugin-proposal-private-methods@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
+2026-04-10T17:09:23.1964137Z #18 13.07 npm warn deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+2026-04-10T17:09:23.3404617Z #18 13.22 npm warn deprecated source-map@0.8.0-beta.0: The work that was done in this beta branch won't be included in future versions
+2026-04-10T17:09:24.3402221Z #18 14.22 npm warn deprecated @babel/plugin-proposal-private-property-in-object@7.21.11: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-property-in-object instead.
+2026-04-10T17:09:26.6453787Z #18 16.53 npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+2026-04-10T17:09:30.0022945Z #18 19.88 
+2026-04-10T17:09:30.0023843Z #18 19.88 added 1545 packages, and audited 1546 packages in 20s
+2026-04-10T17:09:30.0024852Z #18 19.88 
+2026-04-10T17:09:30.0025183Z #18 19.88 276 packages are looking for funding
+2026-04-10T17:09:30.0025637Z #18 19.88   run `npm fund` for details
+2026-04-10T17:09:30.2136319Z #18 19.94 
+2026-04-10T17:09:30.2136843Z #18 19.94 26 vulnerabilities (9 low, 3 moderate, 14 high)
+2026-04-10T17:09:30.2137363Z #18 19.94 
+2026-04-10T17:09:30.2137774Z #18 19.94 To address issues that do not require attention, run:
+2026-04-10T17:09:30.2138321Z #18 19.94   npm audit fix
+2026-04-10T17:09:30.2138661Z #18 19.94 
+2026-04-10T17:09:30.2139076Z #18 19.94 To address all issues (including breaking changes), run:
+2026-04-10T17:09:30.2139636Z #18 19.94   npm audit fix --force
+2026-04-10T17:09:30.2140100Z #18 19.94 
+2026-04-10T17:09:30.2140404Z #18 19.94 Run `npm audit` for details.
+2026-04-10T17:09:30.2140809Z #18 19.95 npm notice
+2026-04-10T17:09:30.2141313Z #18 19.95 npm notice New major version of npm available! 10.8.2 -> 11.12.1
+2026-04-10T17:09:30.2142176Z #18 19.95 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1
+2026-04-10T17:09:30.2142937Z #18 19.95 npm notice To update run: npm install -g npm@11.12.1
+2026-04-10T17:09:30.2143664Z #18 19.95 npm notice
+2026-04-10T17:09:30.8712470Z #18 DONE 20.8s
+2026-04-10T17:09:30.8712715Z 
+2026-04-10T17:09:30.8712923Z #21 [backend-build 4/6] RUN mvn dependency:go-offline -q
+2026-04-10T17:09:31.0236408Z #21 ...
+2026-04-10T17:09:31.0236872Z 
+2026-04-10T17:09:31.0237152Z #22 [frontend-build 5/6] COPY frontend/ .
+2026-04-10T17:09:31.3257813Z #22 DONE 0.4s
+2026-04-10T17:09:31.3258317Z 
+2026-04-10T17:09:31.3258677Z #21 [backend-build 4/6] RUN mvn dependency:go-offline -q
+2026-04-10T17:09:31.4760072Z #21 ...
+2026-04-10T17:09:31.4760376Z 
+2026-04-10T17:09:31.4760573Z #23 [frontend-build 6/6] RUN npm run build
+2026-04-10T17:09:31.5356347Z #23 0.211 
+2026-04-10T17:09:31.5357136Z #23 0.211 > sanatorium-frontend@0.1.0 build
+2026-04-10T17:09:31.5357940Z #23 0.211 > react-scripts build
+2026-04-10T17:09:31.5358326Z #23 0.211 
+2026-04-10T17:09:32.7673325Z #23 1.443 Creating an optimized production build...
+2026-04-10T17:09:43.6614840Z #23 ...
+2026-04-10T17:09:43.6615494Z 
+2026-04-10T17:09:43.6616015Z #21 [backend-build 4/6] RUN mvn dependency:go-offline -q
+2026-04-10T17:09:43.6616752Z #21 DONE 32.9s
+2026-04-10T17:09:43.9090207Z 
+2026-04-10T17:09:43.9093568Z #24 [backend-build 5/6] COPY src/ ./src/
+2026-04-10T17:09:43.9094461Z #24 DONE 0.1s
+2026-04-10T17:09:43.9094918Z 
+2026-04-10T17:09:43.9095371Z #25 [backend-build 6/6] RUN mvn package -DskipTests -q
+2026-04-10T17:09:52.2644395Z #25 ...
+2026-04-10T17:09:52.2644919Z 
+2026-04-10T17:09:52.2645428Z #23 [frontend-build 6/6] RUN npm run build
+2026-04-10T17:09:52.2646225Z #23 20.94 Compiled successfully.
+2026-04-10T17:09:52.2646807Z #23 20.94 
+2026-04-10T17:09:52.4647547Z #23 20.94 File sizes after gzip:
+2026-04-10T17:09:52.4648293Z #23 20.94 
+2026-04-10T17:09:52.4649401Z #23 20.99   93.35 kB  build/static/js/main.85e54aaa.js
+2026-04-10T17:09:52.4651088Z #23 20.99   48.61 kB  build/static/css/main.8de6f653.css
+2026-04-10T17:09:52.4652948Z #23 20.99 
+2026-04-10T17:09:52.4653804Z #23 20.99 The project was built assuming it is hosted at /.
+2026-04-10T17:09:52.4654698Z #23 20.99 You can control this with the homepage field in your package.json.
+2026-04-10T17:09:52.4655490Z #23 20.99 
+2026-04-10T17:09:52.4656027Z #23 20.99 The build folder is ready to be deployed.
+2026-04-10T17:09:52.4656697Z #23 20.99 You may serve it with a static server:
+2026-04-10T17:09:52.4657309Z #23 20.99 
+2026-04-10T17:09:52.4657773Z #23 20.99   npm install -g serve
+2026-04-10T17:09:52.4658362Z #23 20.99   serve -s build
+2026-04-10T17:09:52.4658872Z #23 20.99 
+2026-04-10T17:09:52.4659376Z #23 20.99 Find out more about deployment here:
+2026-04-10T17:09:52.4659962Z #23 20.99 
+2026-04-10T17:09:52.4660450Z #23 20.99   https://cra.link/deployment
+2026-04-10T17:09:52.4661012Z #23 20.99 
+2026-04-10T17:09:52.4848149Z #23 DONE 21.2s
+2026-04-10T17:09:52.4848635Z 
+2026-04-10T17:09:52.4848876Z #25 [backend-build 6/6] RUN mvn package -DskipTests -q
+2026-04-10T17:09:56.3087910Z #25 DONE 12.6s
+2026-04-10T17:09:56.5071346Z 
+2026-04-10T17:09:56.5072391Z #26 [runtime 4/7] COPY --from=backend-build /backend/target/*.jar app.jar
+2026-04-10T17:09:56.6153347Z #26 DONE 0.1s
+2026-04-10T17:09:56.6155310Z 
+2026-04-10T17:09:56.6155978Z #27 [runtime 5/7] RUN mkdir -p /app/static
+2026-04-10T17:09:56.6156755Z #27 DONE 0.1s
+2026-04-10T17:09:56.7321258Z 
+2026-04-10T17:09:56.7327323Z #28 [runtime 6/7] COPY --from=frontend-build /frontend/build/ /app/static/
+2026-04-10T17:09:56.7328274Z #28 DONE 0.0s
+2026-04-10T17:09:56.7328464Z 
+2026-04-10T17:09:56.7328833Z #29 [runtime 7/7] RUN mkdir -p /app/uploads/news && chown -R appuser:appgroup /app
+2026-04-10T17:09:56.7329476Z #29 DONE 0.1s
+2026-04-10T17:09:56.8853990Z 
+2026-04-10T17:09:56.8856180Z #30 exporting to image
+2026-04-10T17:09:56.8856873Z #30 exporting layers
+2026-04-10T17:09:58.4790594Z #30 exporting layers 1.7s done
+2026-04-10T17:09:58.6777021Z #30 ...
+2026-04-10T17:09:58.6777697Z 
+2026-04-10T17:09:58.6778496Z #31 [auth] dengoan969/naumenpracticesanatoriumproject/sanatorium-project:pull,push token for ghcr.io
+2026-04-10T17:09:58.6779511Z #31 DONE 0.0s
+2026-04-10T17:09:58.6779875Z 
+2026-04-10T17:09:58.6780199Z #30 exporting to image
+2026-04-10T17:09:58.6781148Z #30 exporting manifest sha256:b08eb5c262813bb652cea51138a13f9e78467c2167d2bde0c64034618964923a done
+2026-04-10T17:09:58.6782310Z #30 exporting config sha256:0e46a67c47005ce94a9d4a5d57df50e99d411668d616c04ce757969f1c2dc113 done
+2026-04-10T17:09:58.6783706Z #30 exporting attestation manifest sha256:4be44c3ac883bc4b53cbd9ca9c18e57e18d1851ce7f7ef8ce091bd37e29f4c20 done
+2026-04-10T17:09:58.6784919Z #30 exporting manifest list sha256:4555c495a6afc83e2807a658e05faea11a04ff56070d8635e31a1f3c0655b5d9 done
+2026-04-10T17:09:58.6785699Z #30 pushing layers
+2026-04-10T17:10:01.8274316Z #30 ...
+2026-04-10T17:10:01.8274610Z 
+2026-04-10T17:10:01.8274777Z #32 exporting to GitHub Actions Cache
+2026-04-10T17:10:01.8275286Z #32 preparing build cache for export
+2026-04-10T17:10:03.9175595Z #32 ...
+2026-04-10T17:10:03.9176330Z 
+2026-04-10T17:10:03.9176488Z #30 exporting to image
+2026-04-10T17:10:03.9176970Z #30 pushing layers 0.1s done
+2026-04-10T17:10:03.9178284Z #30 pushing manifest for ghcr.io/dengoan969/naumenpracticesanatoriumproject/sanatorium-project:latest@sha256:4555c495a6afc83e2807a658e05faea11a04ff56070d8635e31a1f3c0655b5d9 1.1s done
+2026-04-10T17:10:03.9180349Z #30 pushing manifest for ghcr.io/dengoan969/naumenpracticesanatoriumproject/sanatorium-project:1abb3b6@sha256:4555c495a6afc83e2807a658e05faea11a04ff56070d8635e31a1f3c0655b5d9 0.4s done
+2026-04-10T17:10:03.9181616Z #30 DONE 7.2s
+2026-04-10T17:10:04.0680931Z 
+2026-04-10T17:10:04.0681516Z #32 exporting to GitHub Actions Cache
+2026-04-10T17:10:14.3427260Z #32 preparing build cache for export 15.8s done
+2026-04-10T17:10:14.3427979Z #32 sending cache export
+2026-04-10T17:10:14.5096152Z #32 writing layer sha256:1a7a516dcbb69b4973083542d2549433254cc064cec8da3251f7d889b69099e2
+2026-04-10T17:10:14.5378612Z #32 writing layer sha256:1a7a516dcbb69b4973083542d2549433254cc064cec8da3251f7d889b69099e2 0.2s done
+2026-04-10T17:10:14.6987988Z #32 writing layer sha256:21b3876dd9602e280988dbf5fb60deb8599621807003e0af6e0b5da95061724e
+2026-04-10T17:10:14.6989609Z #32 writing layer sha256:21b3876dd9602e280988dbf5fb60deb8599621807003e0af6e0b5da95061724e 0.2s done
+2026-04-10T17:10:14.8466498Z #32 writing layer sha256:2718cb234dc937232810fb594415a829caf61234b4cfad4318912483043fcd3d 0.1s done
+2026-04-10T17:10:15.0029335Z #32 writing layer sha256:32b736977b63e2d08f494efff566b76b53223018ba70ef3f070289f1f0830e61 0.1s done
+2026-04-10T17:10:15.1420098Z #32 writing layer sha256:3655cb26ed1af33f0fe5361c725d9b419f8f7e57bb595528b27cc387059adaa2 0.1s done
+2026-04-10T17:10:15.2635005Z #32 writing layer sha256:482571cc782cc4ed15fb475dc3ea26caee85225824c1c1e32c03094f622448f1 0.1s done
+2026-04-10T17:10:15.4245503Z #32 writing layer sha256:4ad6a808105a246c90e2c13d070ca3861f48b3eb7c54e5e7386017c32674b804
+2026-04-10T17:10:15.5356335Z #32 writing layer sha256:4ad6a808105a246c90e2c13d070ca3861f48b3eb7c54e5e7386017c32674b804 0.3s done
+2026-04-10T17:10:15.6761012Z #32 writing layer sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0.1s done
+2026-04-10T17:10:15.8514735Z #32 writing layer sha256:52562347e5095f91dcef07e31744d38da2218e3d68ed36686ee889ef31ae2406
+2026-04-10T17:10:21.7372473Z #32 writing layer sha256:52562347e5095f91dcef07e31744d38da2218e3d68ed36686ee889ef31ae2406 6.0s done
+2026-04-10T17:10:21.8977467Z #32 writing layer sha256:5340080b89d08572a4152b6348ec21487857949c9f67c064f677b37988da7288
+2026-04-10T17:10:28.3222659Z #32 writing layer sha256:5340080b89d08572a4152b6348ec21487857949c9f67c064f677b37988da7288 6.6s done
+2026-04-10T17:10:28.4964742Z #32 writing layer sha256:5493e917f3bb9d30377b7093eb08bd71d4885aa7b6dc82972cc761fb63ba3ebb
+2026-04-10T17:10:28.5332492Z #32 writing layer sha256:5493e917f3bb9d30377b7093eb08bd71d4885aa7b6dc82972cc761fb63ba3ebb 0.2s done
+2026-04-10T17:10:28.6947462Z #32 writing layer sha256:589002ba0eaed121a1dbf42f6648f29e5be55d5c8a6ee0f8eaa0285cc21ac153
+2026-04-10T17:10:28.9329617Z #32 writing layer sha256:589002ba0eaed121a1dbf42f6648f29e5be55d5c8a6ee0f8eaa0285cc21ac153 0.4s done
+2026-04-10T17:10:29.1091688Z #32 writing layer sha256:5df9c4c4dcbf56dc89e6ef5eb334bec79efa46ced3dd8fb4b4a2cb7d1985e1ab
+2026-04-10T17:10:33.3280548Z #32 writing layer sha256:5df9c4c4dcbf56dc89e6ef5eb334bec79efa46ced3dd8fb4b4a2cb7d1985e1ab 4.4s done
+2026-04-10T17:10:33.4895836Z #32 writing layer sha256:62e0e1181d88da8ed0e2fda221e9446ad0f09a004a375193ad7a38e31ec4eab4
+2026-04-10T17:10:33.5293683Z #32 writing layer sha256:62e0e1181d88da8ed0e2fda221e9446ad0f09a004a375193ad7a38e31ec4eab4 0.2s done
+2026-04-10T17:10:33.6382101Z #32 writing layer sha256:6b1d6d23475eb0d0d5d5e5c82bacd7ad1b1cd6eb40ce630b4bcfe8a1d3736629 0.1s done
+2026-04-10T17:10:33.7869110Z #32 writing layer sha256:6d0b3aa0fc9566eb09be60af94e6aa6908c7e5e316b531ec5a22f49ee8685b66 0.1s done
+2026-04-10T17:10:33.9029901Z #32 writing layer sha256:6fce97b56f1dd9453692f70d804cc12d7b9da6e5a0e68f52a565f1ac82bbf3a9 0.1s done
+2026-04-10T17:10:34.0691258Z #32 writing layer sha256:71075870ab4982d45fa235ee69bf94cf05112736cabcd28cb26fe512a6cc2c15
+2026-04-10T17:10:34.8162287Z #32 writing layer sha256:71075870ab4982d45fa235ee69bf94cf05112736cabcd28cb26fe512a6cc2c15 0.9s done
+2026-04-10T17:10:34.9793937Z #32 writing layer sha256:78024174d05ba3a0f3847f6387afd1ed34f0145f90024395c7843b9748b5724d
+2026-04-10T17:10:37.5243829Z #32 writing layer sha256:78024174d05ba3a0f3847f6387afd1ed34f0145f90024395c7843b9748b5724d 2.7s done
+2026-04-10T17:10:37.6886176Z #32 writing layer sha256:87268e8a5c4e087d3c762f1eb54a82f41e821bccb6894c73ccab92b027dace7e
+2026-04-10T17:10:38.2827285Z #32 writing layer sha256:87268e8a5c4e087d3c762f1eb54a82f41e821bccb6894c73ccab92b027dace7e 0.7s done
+2026-04-10T17:10:38.4661988Z #32 writing layer sha256:9e94de3fac05ca391734f88994a496c8d4c148fb1615cc56735e151c32a9ef2f
+2026-04-10T17:10:38.6645493Z #32 writing layer sha256:9e94de3fac05ca391734f88994a496c8d4c148fb1615cc56735e151c32a9ef2f 0.3s done
+2026-04-10T17:10:38.8276868Z #32 writing layer sha256:a0530cf5a8921aa71ba5baa71372fdfa2f68ac0a6dd037d4c33679a1d35e7ba9
+2026-04-10T17:10:39.5856870Z #32 writing layer sha256:a0530cf5a8921aa71ba5baa71372fdfa2f68ac0a6dd037d4c33679a1d35e7ba9 0.9s done
+2026-04-10T17:10:39.7234484Z #32 writing layer sha256:a391179138d55f3b1a4d26bec653c15cf9bf2384e97e959a98940cd448a9a425 0.1s done
+2026-04-10T17:10:39.8908570Z #32 writing layer sha256:b4b2133251d5cfee33f5f7a4b2d24bf1fe367dd86a2629ea7888e346b9a02de7
+2026-04-10T17:10:42.6456390Z #32 writing layer sha256:b4b2133251d5cfee33f5f7a4b2d24bf1fe367dd86a2629ea7888e346b9a02de7 2.9s done
+2026-04-10T17:10:42.7705845Z #32 writing layer sha256:c7734204880fafbd6297ce1844e07c137d82ee814ac8b5fa6ac1a3659101d503 0.1s done
+2026-04-10T17:10:42.9006725Z #32 writing layer sha256:d2a9dd37d0fa9e67b13b88e7ab16634c3378b187d3b392bb1b737481034f10d5 0.1s done
+2026-04-10T17:10:43.0627694Z #32 writing layer sha256:d7f6aca05b78f475975eeac3898b7ef0a618937174c469650e05e81cbf8c5f46
+2026-04-10T17:10:45.0936261Z #32 writing layer sha256:d7f6aca05b78f475975eeac3898b7ef0a618937174c469650e05e81cbf8c5f46 2.2s done
+2026-04-10T17:10:45.2565060Z #32 writing layer sha256:ebf27b2f1dcc34bb3592032d2fca01d720abfd1e6baa1293e287a9ccab686e2c
+2026-04-10T17:10:47.1711528Z #32 writing layer sha256:ebf27b2f1dcc34bb3592032d2fca01d720abfd1e6baa1293e287a9ccab686e2c 2.1s done
+2026-04-10T17:10:47.3041793Z #32 writing layer sha256:ed3b570fdaeb59689a69ab2d45269258f416070d9b2d0166b4bb0b9824099330 0.1s done
+2026-04-10T17:10:47.4816326Z #32 writing layer sha256:f034a8a9528bee68aadf7ab2f2ea35a8192930145934e7f3cf201247ccc929b8
+2026-04-10T17:10:47.4933258Z #32 writing layer sha256:f034a8a9528bee68aadf7ab2f2ea35a8192930145934e7f3cf201247ccc929b8 0.2s done
+2026-04-10T17:10:47.6546636Z #32 writing layer sha256:f89a2062a266b63f01836931d6d93884b0ac588434b4e950f4fabdd82c4731f9
+2026-04-10T17:10:52.7993298Z #32 writing layer sha256:f89a2062a266b63f01836931d6d93884b0ac588434b4e950f4fabdd82c4731f9 5.3s done
+2026-04-10T17:10:52.9201941Z #32 writing layer sha256:fa18af7435df8147fac5d80a0344cfe7bae02b0cd8736a40a44ad663cc1eb1d7 0.1s done
+2026-04-10T17:10:52.9203244Z #32 writing layer sha256:fdc894a51035c1faee49ce2f4bf4aa1159477359c84b8bbc925a8c0033502ecf
+2026-04-10T17:10:56.2291628Z #32 writing layer sha256:fdc894a51035c1faee49ce2f4bf4aa1159477359c84b8bbc925a8c0033502ecf 3.3s done
+2026-04-10T17:10:56.3948099Z #32 sending cache export 42.1s done
+2026-04-10T17:10:56.3948832Z #32 DONE 57.9s
+2026-04-10T17:10:56.4308022Z 
+2026-04-10T17:10:56.4308567Z #33 resolving provenance for metadata file
+2026-04-10T17:10:56.4309194Z #33 DONE 0.0s
+2026-04-10T17:10:56.4384854Z ##[group]ImageID
+2026-04-10T17:10:56.4385477Z sha256:4555c495a6afc83e2807a658e05faea11a04ff56070d8635e31a1f3c0655b5d9
+2026-04-10T17:10:56.4386509Z ##[endgroup]
+2026-04-10T17:10:56.4387099Z ##[group]Digest
+2026-04-10T17:10:56.4387650Z sha256:4555c495a6afc83e2807a658e05faea11a04ff56070d8635e31a1f3c0655b5d9
+2026-04-10T17:10:56.4388552Z ##[endgroup]
+2026-04-10T17:10:56.4389138Z ##[group]Metadata
+2026-04-10T17:10:56.4389935Z {
+2026-04-10T17:10:56.4390277Z   "buildx.build.provenance": {
+2026-04-10T17:10:56.4390560Z     "builder": {
+2026-04-10T17:10:56.4391265Z       "id": "https://github.com/Dengoan969/NaumenPracticeSanatoriumProject/actions/runs/24254688620/attempts/1"
+2026-04-10T17:10:56.4391980Z     },
+2026-04-10T17:10:56.4392398Z     "buildType": "https://mobyproject.org/buildkit@v1",
+2026-04-10T17:10:56.4392910Z     "materials": [
+2026-04-10T17:10:56.4393400Z       {
+2026-04-10T17:10:56.4393920Z         "uri": "pkg:docker/eclipse-temurin@21-jre-alpine?platform=linux%2Famd64",
+2026-04-10T17:10:56.4394547Z         "digest": {
+2026-04-10T17:10:56.4395098Z           "sha256": "6ad8ed080d9be96b61438ec3ce99388e294af216ed57356000c06070e85c5d5d"
+2026-04-10T17:10:56.4395721Z         }
+2026-04-10T17:10:56.4395964Z       },
+2026-04-10T17:10:56.4396211Z       {
+2026-04-10T17:10:56.4396688Z         "uri": "pkg:docker/maven@3.9-eclipse-temurin-21-alpine?platform=linux%2Famd64",
+2026-04-10T17:10:56.4397622Z         "digest": {
+2026-04-10T17:10:56.4398152Z           "sha256": "b9c89e0a0e292a8b8eb5e68c9cf24335f99bbf1483e8c7b56c2b9b96087ad56d"
+2026-04-10T17:10:56.4398753Z         }
+2026-04-10T17:10:56.4398998Z       },
+2026-04-10T17:10:56.4399230Z       {
+2026-04-10T17:10:56.4399592Z         "uri": "pkg:docker/node@20-alpine?platform=linux%2Famd64",
+2026-04-10T17:10:56.4399936Z         "digest": {
+2026-04-10T17:10:56.4400248Z           "sha256": "f598378b5240225e6beab68fa9f356db1fb8efe55173e6d4d8153113bb8f333c"
+2026-04-10T17:10:56.4400612Z         }
+2026-04-10T17:10:56.4400765Z       }
+2026-04-10T17:10:56.4400916Z     ],
+2026-04-10T17:10:56.4401074Z     "invocation": {
+2026-04-10T17:10:56.4401261Z       "configSource": {
+2026-04-10T17:10:56.4401457Z         "entryPoint": "Dockerfile"
+2026-04-10T17:10:56.4401669Z       },
+2026-04-10T17:10:56.4401818Z       "parameters": {
+2026-04-10T17:10:56.4402016Z         "frontend": "dockerfile.v0",
+2026-04-10T17:10:56.4402241Z         "args": {
+2026-04-10T17:10:56.4402692Z           "label:org.opencontainers.image.created": "2026-04-10T17:09:04.935Z",
+2026-04-10T17:10:56.4403529Z           "label:org.opencontainers.image.description": "",
+2026-04-10T17:10:56.4404131Z           "label:org.opencontainers.image.licenses": "",
+2026-04-10T17:10:56.4404641Z           "label:org.opencontainers.image.revision": "1abb3b6f9325bc19f28873b37c611ad85a5457e0",
+2026-04-10T17:10:56.4405620Z           "label:org.opencontainers.image.source": "https://github.com/Dengoan969/NaumenPracticeSanatoriumProject",
+2026-04-10T17:10:56.4406554Z           "label:org.opencontainers.image.title": "NaumenPracticeSanatoriumProject",
+2026-04-10T17:10:56.4407475Z           "label:org.opencontainers.image.url": "https://github.com/Dengoan969/NaumenPracticeSanatoriumProject",
+2026-04-10T17:10:56.4407995Z           "label:org.opencontainers.image.version": "latest"
+2026-04-10T17:10:56.4408263Z         },
+2026-04-10T17:10:56.4408420Z         "locals": [
+2026-04-10T17:10:56.4408598Z           {
+2026-04-10T17:10:56.4408828Z             "name": "context"
+2026-04-10T17:10:56.4409061Z           },
+2026-04-10T17:10:56.4409207Z           {
+2026-04-10T17:10:56.4409368Z             "name": "dockerfile"
+2026-04-10T17:10:56.4409576Z           }
+2026-04-10T17:10:56.4409729Z         ]
+2026-04-10T17:10:56.4409866Z       },
+2026-04-10T17:10:56.4410016Z       "environment": {
+2026-04-10T17:10:56.4410229Z         "github_actor": "Dengoan969",
+2026-04-10T17:10:56.4410464Z         "github_actor_id": "92169913",
+2026-04-10T17:10:56.4410690Z         "github_event_name": "push",
+2026-04-10T17:10:56.4410950Z         "github_event_payload": {
+2026-04-10T17:10:56.4411227Z           "after": "1abb3b6f9325bc19f28873b37c611ad85a5457e0",
+2026-04-10T17:10:56.4411546Z           "base_ref": null,
+2026-04-10T17:10:56.4411821Z           "before": "54eeb2b0e398d6c55d792f413463cc0688f0cb13",
+2026-04-10T17:10:56.4412112Z           "commits": [
+2026-04-10T17:10:56.4412306Z             {
+2026-04-10T17:10:56.4412469Z               "author": {
+2026-04-10T17:10:56.4412703Z                 "email": "dengoan969@gmail.com",
+2026-04-10T17:10:56.4412966Z                 "name": "dengoan969",
+2026-04-10T17:10:56.4413547Z                 "username": "Dengoan969"
+2026-04-10T17:10:56.4413876Z               },
+2026-04-10T17:10:56.4414076Z               "committer": {
+2026-04-10T17:10:56.4414316Z                 "email": "dengoan969@gmail.com",
+2026-04-10T17:10:56.4414578Z                 "name": "dengoan969",
+2026-04-10T17:10:56.4414824Z                 "username": "Dengoan969"
+2026-04-10T17:10:56.4415032Z               },
+2026-04-10T17:10:56.4415222Z               "distinct": true,
+2026-04-10T17:10:56.4415528Z               "id": "1abb3b6f9325bc19f28873b37c611ad85a5457e0",
+2026-04-10T17:10:56.4415830Z               "message": "fix docker ci 2",
+2026-04-10T17:10:56.4416108Z               "timestamp": "2026-04-10T22:07:52+05:00",
+2026-04-10T17:10:56.4416425Z               "tree_id": "a4788f8128b51382aa79fcb98a9bcf4d9f66e04b",
+2026-04-10T17:10:56.4417298Z               "url": "https://github.com/Dengoan969/NaumenPracticeSanatoriumProject/commit/1abb3b6f9325bc19f28873b37c611ad85a5457e0"
+2026-04-10T17:10:56.4417870Z             }
+2026-04-10T17:10:56.4418029Z           ],
+2026-04-10T17:10:56.4418499Z           "compare": "https://github.com/Dengoan969/NaumenPracticeSanatoriumProject/compare/54eeb2b0e398...1abb3b6f9325",
+2026-04-10T17:10:56.4419030Z           "created": false,
+2026-04-10T17:10:56.4419251Z           "deleted": false,
+2026-04-10T17:10:56.4419457Z           "forced": false,
+2026-04-10T17:10:56.4419651Z           "head_commit": {
+2026-04-10T17:10:56.4419862Z             "author": {
+2026-04-10T17:10:56.4420081Z               "email": "dengoan969@gmail.com",
+2026-04-10T17:10:56.4420348Z               "name": "dengoan969",
+2026-04-10T17:10:56.4420584Z               "username": "Dengoan969"
+2026-04-10T17:10:56.4420798Z             },
+2026-04-10T17:10:56.4420978Z             "committer": {
+2026-04-10T17:10:56.4421199Z               "email": "dengoan969@gmail.com",
+2026-04-10T17:10:56.4421607Z               "name": "dengoan969",
+2026-04-10T17:10:56.4421846Z               "username": "Dengoan969"
+2026-04-10T17:10:56.4422066Z             },
+2026-04-10T17:10:56.4422250Z             "distinct": true,
+2026-04-10T17:10:56.4422496Z             "id": "1abb3b6f9325bc19f28873b37c611ad85a5457e0",
+2026-04-10T17:10:56.4422805Z             "message": "fix docker ci 2",
+2026-04-10T17:10:56.4423509Z             "timestamp": "2026-04-10T22:07:52+05:00",
+2026-04-10T17:10:56.4423951Z             "tree_id": "a4788f8128b51382aa79fcb98a9bcf4d9f66e04b",
+2026-04-10T17:10:56.4424581Z             "url": "https://github.com/Dengoan969/NaumenPracticeSanatoriumProject/commit/1abb3b6f9325bc19f28873b37c611ad85a5457e0"
+2026-04-10T17:10:56.4425132Z           },
+2026-04-10T17:10:56.4425315Z           "pusher": {
+2026-04-10T17:10:56.4425580Z             "email": "92169913+Dengoan969@users.noreply.github.com",
+2026-04-10T17:10:56.4425903Z             "name": "Dengoan969"
+2026-04-10T17:10:56.4426135Z           },
+2026-04-10T17:10:56.4426324Z           "ref": "refs/heads/main",
+2026-04-10T17:10:56.4426565Z           "repository": {
+2026-04-10T17:10:56.4426778Z             "allow_forking": true,
+2026-04-10T17:10:56.4427304Z             "archive_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/{archive_format}{/ref}",
+2026-04-10T17:10:56.4427861Z             "archived": false,
+2026-04-10T17:10:56.4428377Z             "assignees_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/assignees{/user}",
+2026-04-10T17:10:56.4429119Z             "blobs_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/git/blobs{/sha}",
+2026-04-10T17:10:56.4429831Z             "branches_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/branches{/branch}",
+2026-04-10T17:10:56.4430541Z             "clone_url": "https://github.com/Dengoan969/NaumenPracticeSanatoriumProject.git",
+2026-04-10T17:10:56.4431367Z             "collaborators_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/collaborators{/collaborator}",
+2026-04-10T17:10:56.4432179Z             "comments_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/comments{/number}",
+2026-04-10T17:10:56.4432914Z             "commits_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/commits{/sha}",
+2026-04-10T17:10:56.4434441Z             "compare_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/compare/{base}...{head}",
+2026-04-10T17:10:56.4435520Z             "contents_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/contents/{+path}",
+2026-04-10T17:10:56.4436249Z             "contributors_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/contributors",
+2026-04-10T17:10:56.4436730Z             "created_at": 1766405579,
+2026-04-10T17:10:56.4436957Z             "default_branch": "main",
+2026-04-10T17:10:56.4437592Z             "deployments_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/deployments",
+2026-04-10T17:10:56.4438070Z             "description": null,
+2026-04-10T17:10:56.4438281Z             "disabled": false,
+2026-04-10T17:10:56.4438705Z             "downloads_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/downloads",
+2026-04-10T17:10:56.4439386Z             "events_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/events",
+2026-04-10T17:10:56.4439820Z             "fork": true,
+2026-04-10T17:10:56.4440009Z             "forks": 0,
+2026-04-10T17:10:56.4440189Z             "forks_count": 0,
+2026-04-10T17:10:56.4440576Z             "forks_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/forks",
+2026-04-10T17:10:56.4441071Z             "full_name": "Dengoan969/NaumenPracticeSanatoriumProject",
+2026-04-10T17:10:56.4441950Z             "git_commits_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/git/commits{/sha}",
+2026-04-10T17:10:56.4443491Z             "git_refs_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/git/refs{/sha}",
+2026-04-10T17:10:56.4444196Z             "git_tags_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/git/tags{/sha}",
+2026-04-10T17:10:56.4444793Z             "git_url": "git://github.com/Dengoan969/NaumenPracticeSanatoriumProject.git",
+2026-04-10T17:10:56.4445167Z             "has_discussions": false,
+2026-04-10T17:10:56.4445401Z             "has_downloads": true,
+2026-04-10T17:10:56.4445615Z             "has_issues": false,
+2026-04-10T17:10:56.4445824Z             "has_pages": false,
+2026-04-10T17:10:56.4446026Z             "has_projects": true,
+2026-04-10T17:10:56.4446244Z             "has_pull_requests": true,
+2026-04-10T17:10:56.4446468Z             "has_wiki": true,
+2026-04-10T17:10:56.4446662Z             "homepage": null,
+2026-04-10T17:10:56.4447061Z             "hooks_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/hooks",
+2026-04-10T17:10:56.4447613Z             "html_url": "https://github.com/Dengoan969/NaumenPracticeSanatoriumProject",
+2026-04-10T17:10:56.4447977Z             "id": 1121084696,
+2026-04-10T17:10:56.4448168Z             "is_template": false,
+2026-04-10T17:10:56.4448664Z             "issue_comment_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/issues/comments{/number}",
+2026-04-10T17:10:56.4449451Z             "issue_events_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/issues/events{/number}",
+2026-04-10T17:10:56.4450183Z             "issues_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/issues{/number}",
+2026-04-10T17:10:56.4450855Z             "keys_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/keys{/key_id}",
+2026-04-10T17:10:56.4451509Z             "labels_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/labels{/name}",
+2026-04-10T17:10:56.4451981Z             "language": "JavaScript",
+2026-04-10T17:10:56.4452415Z             "languages_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/languages",
+2026-04-10T17:10:56.4452883Z             "license": null,
+2026-04-10T17:10:56.4453355Z             "master_branch": "main",
+2026-04-10T17:10:56.4453790Z             "merges_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/merges",
+2026-04-10T17:10:56.4454475Z             "milestones_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/milestones{/number}",
+2026-04-10T17:10:56.4454997Z             "mirror_url": null,
+2026-04-10T17:10:56.4455247Z             "name": "NaumenPracticeSanatoriumProject",
+2026-04-10T17:10:56.4455520Z             "node_id": "R_kgDOQtJlGA",
+2026-04-10T17:10:56.4456096Z             "notifications_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/notifications{?since,all,participating}",
+2026-04-10T17:10:56.4456849Z             "open_issues": 0,
+2026-04-10T17:10:56.4457058Z             "open_issues_count": 0,
+2026-04-10T17:10:56.4457272Z             "owner": {
+2026-04-10T17:10:56.4457561Z               "avatar_url": "https://avatars.githubusercontent.com/u/92169913?v=4",
+2026-04-10T17:10:56.4457970Z               "email": "92169913+Dengoan969@users.noreply.github.com",
+2026-04-10T17:10:56.4458370Z               "events_url": "https://api.github.com/users/Dengoan969/events{/privacy}",
+2026-04-10T17:10:56.4458849Z               "followers_url": "https://api.github.com/users/Dengoan969/followers",
+2026-04-10T17:10:56.4459315Z               "following_url": "https://api.github.com/users/Dengoan969/following{/other_user}",
+2026-04-10T17:10:56.4459790Z               "gists_url": "https://api.github.com/users/Dengoan969/gists{/gist_id}",
+2026-04-10T17:10:56.4460130Z               "gravatar_id": "",
+2026-04-10T17:10:56.4460382Z               "html_url": "https://github.com/Dengoan969",
+2026-04-10T17:10:56.4460765Z               "id": 92169913,
+2026-04-10T17:10:56.4460961Z               "login": "Dengoan969",
+2026-04-10T17:10:56.4461180Z               "name": "Dengoan969",
+2026-04-10T17:10:56.4461398Z               "node_id": "U_kgDOBX5muQ",
+2026-04-10T17:10:56.4461745Z               "organizations_url": "https://api.github.com/users/Dengoan969/orgs",
+2026-04-10T17:10:56.4462568Z               "received_events_url": "https://api.github.com/users/Dengoan969/received_events",
+2026-04-10T17:10:56.4463581Z               "repos_url": "https://api.github.com/users/Dengoan969/repos",
+2026-04-10T17:10:56.4463972Z               "site_admin": false,
+2026-04-10T17:10:56.4464327Z               "starred_url": "https://api.github.com/users/Dengoan969/starred{/owner}{/repo}",
+2026-04-10T17:10:56.4464833Z               "subscriptions_url": "https://api.github.com/users/Dengoan969/subscriptions",
+2026-04-10T17:10:56.4465200Z               "type": "User",
+2026-04-10T17:10:56.4465463Z               "url": "https://api.github.com/users/Dengoan969",
+2026-04-10T17:10:56.4465760Z               "user_view_type": "public"
+2026-04-10T17:10:56.4465976Z             },
+2026-04-10T17:10:56.4466148Z             "private": false,
+2026-04-10T17:10:56.4466371Z             "pull_request_creation_policy": "all",
+2026-04-10T17:10:56.4467082Z             "pulls_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/pulls{/number}",
+2026-04-10T17:10:56.4467891Z             "pushed_at": 1775840880,
+2026-04-10T17:10:56.4468396Z             "releases_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/releases{/id}",
+2026-04-10T17:10:56.4468856Z             "size": 1027,
+2026-04-10T17:10:56.4469173Z             "ssh_url": "git@github.com:Dengoan969/NaumenPracticeSanatoriumProject.git",
+2026-04-10T17:10:56.4469536Z             "stargazers": 0,
+2026-04-10T17:10:56.4469739Z             "stargazers_count": 0,
+2026-04-10T17:10:56.4470186Z             "stargazers_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/stargazers",
+2026-04-10T17:10:56.4470873Z             "statuses_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/statuses/{sha}",
+2026-04-10T17:10:56.4471564Z             "subscribers_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/subscribers",
+2026-04-10T17:10:56.4472267Z             "subscription_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/subscription",
+2026-04-10T17:10:56.4472856Z             "svn_url": "https://github.com/Dengoan969/NaumenPracticeSanatoriumProject",
+2026-04-10T17:10:56.4473703Z             "tags_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/tags",
+2026-04-10T17:10:56.4474305Z             "teams_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/teams",
+2026-04-10T17:10:56.4474735Z             "topics": [],
+2026-04-10T17:10:56.4475315Z             "trees_url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject/git/trees{/sha}",
+2026-04-10T17:10:56.4475796Z             "updated_at": "2026-04-10T17:03:12Z",
+2026-04-10T17:10:56.4476189Z             "url": "https://api.github.com/repos/Dengoan969/NaumenPracticeSanatoriumProject",
+2026-04-10T17:10:56.4476572Z             "visibility": "public",
+2026-04-10T17:10:56.4476794Z             "watchers": 0,
+2026-04-10T17:10:56.4476991Z             "watchers_count": 0,
+2026-04-10T17:10:56.4477225Z             "web_commit_signoff_required": false
+2026-04-10T17:10:56.4477458Z           },
+2026-04-10T17:10:56.4477617Z           "sender": {
+2026-04-10T17:10:56.4477903Z             "avatar_url": "https://avatars.githubusercontent.com/u/92169913?v=4",
+2026-04-10T17:10:56.4478359Z             "events_url": "https://api.github.com/users/Dengoan969/events{/privacy}",
+2026-04-10T17:10:56.4478801Z             "followers_url": "https://api.github.com/users/Dengoan969/followers",
+2026-04-10T17:10:56.4479270Z             "following_url": "https://api.github.com/users/Dengoan969/following{/other_user}",
+2026-04-10T17:10:56.4479894Z             "gists_url": "https://api.github.com/users/Dengoan969/gists{/gist_id}",
+2026-04-10T17:10:56.4480226Z             "gravatar_id": "",
+2026-04-10T17:10:56.4480471Z             "html_url": "https://github.com/Dengoan969",
+2026-04-10T17:10:56.4480723Z             "id": 92169913,
+2026-04-10T17:10:56.4480920Z             "login": "Dengoan969",
+2026-04-10T17:10:56.4481141Z             "node_id": "U_kgDOBX5muQ",
+2026-04-10T17:10:56.4481460Z             "organizations_url": "https://api.github.com/users/Dengoan969/orgs",
+2026-04-10T17:10:56.4481931Z             "received_events_url": "https://api.github.com/users/Dengoan969/received_events",
+2026-04-10T17:10:56.4482376Z             "repos_url": "https://api.github.com/users/Dengoan969/repos",
+2026-04-10T17:10:56.4482688Z             "site_admin": false,
+2026-04-10T17:10:56.4483225Z             "starred_url": "https://api.github.com/users/Dengoan969/starred{/owner}{/repo}",
+2026-04-10T17:10:56.4483898Z             "subscriptions_url": "https://api.github.com/users/Dengoan969/subscriptions",
+2026-04-10T17:10:56.4484267Z             "type": "User",
+2026-04-10T17:10:56.4484506Z             "url": "https://api.github.com/users/Dengoan969",
+2026-04-10T17:10:56.4484789Z             "user_view_type": "public"
+2026-04-10T17:10:56.4485002Z           }
+2026-04-10T17:10:56.4485151Z         },
+2026-04-10T17:10:56.4485323Z         "github_job": "docker-build-push",
+2026-04-10T17:10:56.4485574Z         "github_ref": "refs/heads/main",
+2026-04-10T17:10:56.4485802Z         "github_ref_name": "main",
+2026-04-10T17:10:56.4486025Z         "github_ref_protected": "false",
+2026-04-10T17:10:56.4486257Z         "github_ref_type": "branch",
+2026-04-10T17:10:56.4486570Z         "github_repository": "Dengoan969/NaumenPracticeSanatoriumProject",
+2026-04-10T17:10:56.4486920Z         "github_repository_id": "1121084696",
+2026-04-10T17:10:56.4487180Z         "github_repository_owner": "Dengoan969",
+2026-04-10T17:10:56.4487450Z         "github_repository_owner_id": "92169913",
+2026-04-10T17:10:56.4487694Z         "github_run_attempt": "1",
+2026-04-10T17:10:56.4487960Z         "github_run_id": "24254688620",
+2026-04-10T17:10:56.4488185Z         "github_run_number": "12",
+2026-04-10T17:10:56.4488403Z         "github_runner_arch": "X64",
+2026-04-10T17:10:56.4488660Z         "github_runner_environment": "github-hosted",
+2026-04-10T17:10:56.4488934Z         "github_runner_image_os": "ubuntu24",
+2026-04-10T17:10:56.4489208Z         "github_runner_image_version": "20260406.80.1",
+2026-04-10T17:10:56.4489505Z         "github_runner_name": "GitHub Actions 1000000072",
+2026-04-10T17:10:56.4489784Z         "github_runner_os": "Linux",
+2026-04-10T17:10:56.4490114Z         "github_runner_tracking_id": "github_2c5bd3e1-5d19-4fb4-828d-dab09e6134e3",
+2026-04-10T17:10:56.4490498Z         "github_server_url": "https://github.com",
+2026-04-10T17:10:56.4490772Z         "github_triggering_actor": "Dengoan969",
+2026-04-10T17:10:56.4491176Z         "github_workflow": "CI Pipeline",
+2026-04-10T17:10:56.4491658Z         "github_workflow_ref": "Dengoan969/NaumenPracticeSanatoriumProject/.github/workflows/ci.yml@refs/heads/main",
+2026-04-10T17:10:56.4492221Z         "github_workflow_sha": "1abb3b6f9325bc19f28873b37c611ad85a5457e0",
+2026-04-10T17:10:56.4492543Z         "platform": "linux/amd64"
+2026-04-10T17:10:56.4492745Z       }
+2026-04-10T17:10:56.4492889Z     }
+2026-04-10T17:10:56.4493238Z   },
+2026-04-10T17:10:56.4493842Z   "buildx.build.ref": "builder-19b4f40c-ad86-4637-940a-0d07cb5b5e9c/builder-19b4f40c-ad86-4637-940a-0d07cb5b5e9c0/dgdgb7lrpnca8467ksqjh68ly",
+2026-04-10T17:10:56.4494449Z   "containerimage.descriptor": {
+2026-04-10T17:10:56.4494731Z     "mediaType": "application/vnd.oci.image.index.v1+json",
+2026-04-10T17:10:56.4495165Z     "digest": "sha256:4555c495a6afc83e2807a658e05faea11a04ff56070d8635e31a1f3c0655b5d9",
+2026-04-10T17:10:56.4495531Z     "size": 856
+2026-04-10T17:10:56.4495699Z   },
+2026-04-10T17:10:56.4496168Z   "containerimage.digest": "sha256:4555c495a6afc83e2807a658e05faea11a04ff56070d8635e31a1f3c0655b5d9",
+2026-04-10T17:10:56.4497073Z   "image.name": "ghcr.io/dengoan969/naumenpracticesanatoriumproject/sanatorium-project:latest,ghcr.io/dengoan969/naumenpracticesanatoriumproject/sanatorium-project:1abb3b6"
+2026-04-10T17:10:56.4497766Z }
+2026-04-10T17:10:56.4498111Z ##[endgroup]
+2026-04-10T17:10:56.4498431Z ##[group]Reference
+2026-04-10T17:10:56.4498882Z builder-19b4f40c-ad86-4637-940a-0d07cb5b5e9c/builder-19b4f40c-ad86-4637-940a-0d07cb5b5e9c0/dgdgb7lrpnca8467ksqjh68ly
+2026-04-10T17:10:56.4499498Z ##[endgroup]
+2026-04-10T17:10:56.4499780Z ##[group]Check build summary support
+2026-04-10T17:10:56.4500133Z Build summary supported!
+2026-04-10T17:10:56.4500431Z ##[endgroup]
