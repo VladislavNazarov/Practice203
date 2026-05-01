@@ -1,0 +1,58 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: weather-api
+    ports:
+      - "8080:8000"
+    environment:
+      - DATABASE_URL=postgresql://weather:weather@db:5432/weather_db
+      - REDIS_URL=redis://cache:6379/0
+      - LOG_LEVEL=info
+      - CACHE_TTL=900
+    depends_on:
+      db:
+        condition: service_healthy
+      cache:
+        condition: service_started
+    networks:
+      - weather-net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  db:
+    image: postgres:16-alpine
+    container_name: weather-db
+    environment:
+      - POSTGRES_USER=weather
+      - POSTGRES_PASSWORD=weather
+      - POSTGRES_DB=weather_db
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+    networks:
+      - weather-net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U weather -d weather_db"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  cache:
+    image: redis:7-alpine
+    container_name: weather-cache
+    networks:
+      - weather-net
+    restart: unless-stopped
+
+networks:
+  weather-net:
+    driver: bridge
+
+volumes:
+  pg-data:
