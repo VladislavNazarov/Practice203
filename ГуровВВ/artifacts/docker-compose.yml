@@ -1,0 +1,45 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: ../../
+      dockerfile: ГуровВВ/artifacts/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://user:pass@db:5432/git4codesys
+      - REDIS_URL=redis://cache:6379/0
+      - SECRET_KEY=change_me_in_production
+      - LOG_LEVEL=INFO
+    depends_on:
+      - db
+      - cache
+    networks:
+      - git4codesys-net
+
+  db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=pass
+      - POSTGRES_DB=git4codesys
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    networks:
+      - git4codesys-net
+
+  cache:
+    image: redis:7-alpine
+    volumes:
+      - redis_data:/data
+    networks:
+      - git4codesys-net
+
+volumes:
+  pg_data:
+  redis_data:
+
+networks:
+  git4codesys-net:
+    driver: bridge
