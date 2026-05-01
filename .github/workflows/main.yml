@@ -62,4 +62,4 @@ jobs:
           context: .
           file: ./ГуровВВ/artifacts/Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository }}/git4codesys:latest
+          tags: ghcr.io/vladislavnazarov/practice203/git4codesys:latest
