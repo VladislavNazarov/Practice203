@@ -46,7 +46,6 @@ jobs:
   build-and-push:
     needs: security
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/feature/docker'
     permissions:
       packages: write
     steps:
